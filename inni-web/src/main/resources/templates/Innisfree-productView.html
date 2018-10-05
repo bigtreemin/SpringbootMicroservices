@@ -1,0 +1,1235 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>悦诗风吟官方网站</title>
+    <link rel="stylesheet" href="css/base.css">
+    <link rel="stylesheet" href="css/productView.css">
+</head>
+<body>
+<!--页面头部-->
+<div id="header" style="border-bottom:40px solid #045321;height:124px;">
+    <div class="toHeader">
+        <!-- logo -->
+        <h1 class="logo">
+            <a href="http://localhost:8081/index"><img src="image/logo.png" alt="" /></a>
+        </h1>
+        <!-- 导航菜单 -->
+        <div class="menu">
+            <p class="welcome">
+                <img src="image/txt_welcomeMsg.png"/>
+            </p>
+            <ul class="list">
+            <li class="user"><a href="#"></a></li>
+                <li class="user login"><a href="http://localhost:8081/login"><img src="image/header_util_login.png"/></a></li>
+                <li><a href="http://localhost:8081/register"><img src="image/header_util_register.png"/></a></li>
+                <li><a href="#"><img src="image/header_util_cart.png"/></a></li>
+                <li><a href="#"><img src="image/header_util_mypage.png"/></a></li>
+                <li><a href="#"><img src="image/header_util_cs.png"/></a></li>
+                <li><a href="#"><img src="image/header_util_findShop.png"/></a></li>
+            </ul>
+        </div>
+        <!-- 产品推荐 -->
+        <div class="quickMenu">
+            <ul>
+                <li>
+                    <a href="Inni href="Innisfree-product.html"><img src="image/header_quick_bestseller.png"/></a>
+                </li>
+                <li>
+                    <a href="Inni href="Innisfree-product.html"><img src="image/header_quick_newPdt.png"/></a>
+                </li>
+                <li>
+                    <a href="Inni href="Innisfree-product.html"><img src="image/header_quick_mdsPick.png"/></a>
+                </li>
+            </ul>
+        </div>
+        <!-- 搜索框 -->
+        <div class="search">
+		    <span class="searchWord">
+			   <input type="text" class="product" placeholder="小绿瓶">
+			</span>
+            <input type="image" class="imputImage" src="image/btn_search.png" >
+        </div>
+        <!-- 推荐产品 -->
+        <div class="menuHigh">
+           <ul>
+                <li>
+                    <a href="http://localhost:8081/itemView?pid=3">红石榴气垫</a>
+                </li>
+                <li>
+                    <a href="http://localhost:8081/itemView?pid=37">真萃面膜</a>
+                </li>
+                <li>
+                    <a href="http://localhost:8081/itemView?pid=5">石榴精华露</a>
+                </li>
+                <li>
+                    <a href="http://localhost:8081/itemView?pid=3">护手霜</a>
+                </li>
+            </ul>
+        </div>
+        <!-- 探店指南 -->
+        <div class="headerAd">
+            <a href="#">
+                <img src="./image/header_ad_renewal.jpg" alt="">
+            </a>
+        </div>
+        <!-- 购物、登录导航 -->
+        <div class="shoppingLoginNav">
+            <div class="quickShopping">
+                <a href="#"  id="dropDown">
+                    <img src="./image/gnb_quickShopping.gif" alt="" style="float:left" >
+                </a>
+                <!-- 隐藏购物通道下拉 -->
+                <div class="quickShoppingHid">
+                    <div class="top">
+                        <h2>
+                            <img src="./image/title_quickShopping.png" alt="">
+                        </h2>
+                        <img src="./image/bar_1x9_666666.gif" alt="" class="line">
+                        <p class="desc">
+                            <img src="./image/desc_quickShopping.png" alt="">
+                        </p>
+                    </div>
+                    <div class="searchOption">
+                        <form action="" class="searchBox">
+                            <dl class="option1">
+                                <dt>选择产品类型</dt>
+                                <img src="./image/bar_1x9_666666.gif" alt="" class="line">
+                                <dd>
+                                    <select class="selePro">
+                                        <option value="1">请选择菜单</option>
+                                        <option value="2">基础护理</option>
+                                        <option value="3">洁面与卸妆</option>
+                                        <option value="4">面膜</option>
+                                        <option value="5">面部底妆</option>
+                                        <option value="6">身体护理</option>
+                                        <option value="7">男士系列</option>
+                                        <option value="8">美容工具</option>
+                                        <option value="9">优惠套装</option>
+                                        <option value="10">指甲油</option>
+                                        <option value="11">彩妆</option>
+                                        <option value="12">防嗮</option>
+                                    </select>
+                                    <span class="arr"></span>
+                                    <select >
+                                        <option value="1">请选择菜单</option>
+                                        <option value="2">护肤水</option>
+                                        <option value="3">乳液</option>
+                                        <option value="4">精华液</option>
+                                        <option value="5">面霜</option>
+                                        <option value="6">眼霜</option>
+                                        <option value="7">喷雾</option>
+                                        <option value="8">唇部护理</option>
+                                    </select>
+                                </dd>
+                            </dl>
+                            <dl class="option2">
+                                <dt>选择护肤类型</dt>
+                                <img src="./image/bar_1x9_666666.gif" alt="" class="line">
+                                <dd>
+                                    <select class="selePro">
+                                        <option value="1">请选择菜单</option>
+                                        <option value="2">绿茶精粹</option>
+                                        <option value="3">橄榄</option>
+                                        <option value="4">浆果美白</option>
+                                        <option value="5">火山岩泥</option>
+                                        <option value="6">生机展颜</option>
+                                        <option value="7">香榧</option>
+                                        <option value="8">红酒</option>
+                                        <option value="9">济州石榴</option>
+                                        <option value="10">油菜花蜜</option>
+                                        <option value="11">青麦</option>
+                                        <option value="12">生机蜜柑维C</option>
+                                    </select>
+                                </dd>
+                            </dl>
+                            <dl class="option3">
+                                <dt>选择价格</dt>
+                                <img src="./image/bar_1x9_666666.gif" alt="" class="line">
+                                <dd>
+                                    <ul>
+                                        <li><input type="radio">All~</li>
+                                        <li><input type="radio">100 RMB 以下</li>
+                                        <li><input type="radio">100~200 RMB</li>
+                                        <li><input type="radio">200~300 RMB</li>
+                                        <li><input type="radio">300 RMB~</li>
+                                        <li class="rightLi"><input type="radio">按最新排序</li>
+                                        <li class="rightLi"><input type="radio">按人气排序</li>
+                                        <li class="rightLi"><input type="radio">查看打折商品</li>
+                                    </ul>
+                                </dd>
+                            </dl>
+                        </form>
+                    </div>
+                    <div class="shopSearch">
+                        <a href="http://localhost:8081/item">
+                            <img src="./image/btn_quickShopping_search.png" alt="">
+                        </a>
+                    </div>
+                </div>
+                <!-- 列表 -->
+                <ul class="gnList">
+                    <li class="list1 list">
+                        <a href="#">品牌介绍</a>
+                        <div class="subMenu1 subMenu">
+                            <ul class="subList">
+                                <li><a href="#">品牌介绍</a></li>
+                                <li><a href="#">公益项目</a></li>
+                                <li><a href="#">悦诗风吟广告</a></li>
+                                <li><a href="#">玩转小清新</a></li>
+                            </ul>
+                            <p>
+                                <img src="./image/gnbMenu1_banner.jpg" alt=""/>
+                            </p>
+                        </div>
+                    </li>
+                    <li class="list2 list">
+                        <a href="#">济州岛故事</a>
+                        <div class="subMenu2 subMenu">
+                            <ul class="subList">
+                                <li><a href="#">济州之家介绍</a></li>
+                                <li><a href="#">济州治愈音乐</a></li>
+                            </ul>
+                            <p>
+                                <img src="./image/gnbMenu2_banner.jpg" alt=""/>
+                            </p>
+                        </div>
+                    </li>
+                    <li class="list3 list">
+                        <a href="#">购物</a>
+                        <div class="subMenu3 subMenu" >
+                            <dl class="subGroup1">
+                                <dt><a href="Inni href="Innisfree-product.html">产品类别</a></dt>
+                                <dd><a href="Inni href="Innisfree-product.html">基础护理</a></dd>
+                                <dd><a href="Inni href="Innisfree-product.html">面膜</a></dd>
+                                <dd><a href="Inni href="Innisfree-product.html">洁面与卸妆</a></dd>
+                                <dd><a href="Inni href="Innisfree-product.html">防晒</a></dd>
+                                <dd><a href="Inni href="Innisfree-product.html">面部底妆</a></dd>
+                                <dd><a href="Inni href="Innisfree-product.html">彩妆</a></dd>
+                                <dd><a href="Inni href="Innisfree-product.html">指甲油</a></dd>
+                                <dd><a href="Inni href="Innisfree-product.html">身体护理</a></dd>
+                                <dd><a href="Inni href="Innisfree-product.html">男士系列</a></dd>
+                                <dd><a href="Inni href="Innisfree-product.html">优惠套装</a></dd>
+                                <dd><a href="Inni href="Innisfree-product.html">美容工具</a></dd>
+                            </dl>
+                            <dl class="subGroup2">
+                                <dt><a href="Inni href="Innisfree-product.html">护肤系列</a></dt>
+                                <dd style=" margin-top: -20px;"><a href="Inni href="Innisfree-product.html">绿茶精粹</a></dd>
+                                <dd><a href="Inni href="Innisfree-product.html">橄榄</a></dd>
+                                <dd><a href="Inni href="Innisfree-product.html">火山岩泥</a></dd>
+                                <dd><a href="Inni href="Innisfree-product.html">生机展颜</a></dd>
+                                <dd><a href="Inni href="Innisfree-product.html">发酵豆</a></dd>
+                                <dd><a href="Inni href="Innisfree-product.html">生机蜜柑维C</a></dd>
+                                <dd><a href="Inni href="Innisfree-product.html">济州石榴</a></dd>
+                                <dd><a href="Inni href="Innisfree-product.html">雪耳</a></dd>
+                                <dd><a href="Inni href="Innisfree-product.html">寒兰</a></dd>
+                                <dd><a href="Inni href="Innisfree-product.html">油菜花蜜</a></dd>
+                                <dd><a href="Inni href="Innisfree-product.html">香榧</a></dd>
+                                <dd><a href="Inni href="Innisfree-product.html">济州岛青麦</a></dd>
+                                <dd><a href="Inni href="Innisfree-product.html">济州温泉水</a></dd>
+                                <dd><a href="Inni href="Innisfree-product.html">九重臻致</a></dd>
+                                <dd><a href="Inni href="Innisfree-product.html">熔岩海水</a></dd>
+                            </dl>
+                            <div class="proBanner">
+                                <a href="#">
+                                    <img src="./image/gnbShopping_banner_20171030.jpg" alt=""/>
+                                </a>
+                            </div>
+                            <ul class="subGroup3">
+                                <li>
+                                    <a href="#"><img src="./image/gnb_menu3-1.gif" alt=""/></a>
+                                </li>
+                                <li>
+                                    <a href="#"><img src="./image/gnb_menu3-2.gif" alt=""/></a>
+                                </li>
+                                <li>
+                                    <a href="#"><img src="./image/gnb_menu3-3.gif" alt=""/></a>
+                                </li>
+                                <li>
+                                    <a href="#"><img src="./image/gnb_menu3-4.gif" alt=""/></a>
+                                </li>
+                            </ul>
+                            <a href="#" class="btnClose">
+                                <img src="./image/btn_close_x_666666.gif" alt=""/>
+                            </a>
+                        </div>
+                    </li>
+                    <li class="list4 list">
+                        <a href="#">活动</a>
+                        <div class="subMenu4 subMenu">
+                            <ul class="subList">
+                                <li><a href="#">正在进行的活动</a></li>
+                                <li><a href="#">过去进行的活动</a></li>
+                                <li><a href="#">新品试用的活动</a></li>
+                                <li><a href="#">中奖者名单</a></li>
+                            </ul>
+                            <p>
+                                <img src="./image/gnbMenu4_banner20150327.jpg" alt=""/>
+                            </p>
+                        </div>
+                    </li>
+                    <li class="list5 list">
+                        <a href="#">社区</a>
+                        <div class="subMenu5 subMenu">
+                            <ul class="subList">
+                                <li><a href="#">照片评论</a></li>
+                                <li><a href="#">绿茶农场游戏</a></li>
+                                <li><a href="#">inni社交圈</a></li>
+                                <li><a href="#">inni积分榜</a></li>
+                                <li><a href="#">美妆秀</a></li>
+                            </ul>
+                            <p>
+                                <img src="./image/gnbMenu5_banner.jpg" alt=""/>
+                            </p>
+                        </div>
+                    </li>
+                </ul>
+                <div class="login">
+					<span class="login-id">
+						<input type="text"/>
+					</span>
+					<span class="login-pwd">
+						<input type="password"/>
+					</span>
+					<span class="login-btn">
+						<a href="#">
+                            <img src="./image/btn_login.png" alt=""/>
+                        </a>
+					</span>
+                </div>
+            </div>
+        </div>
+        <div class="signIn">
+            <a href="#">
+                <img src="./image/161227_check.png" alt=""/>
+            </a>
+        </div>
+    </div>
+</div>
+<!--页面主体-->
+<div id="container">
+    <div class="contents">
+        <div class="location">
+            <span class="home"></span>
+            <span class="path"><a href="#">商城</a></span>
+            <span class="path"><a href="#">产品类别</a></span>
+            <span class="path"><a href="#">优惠套装</a></span>
+            <span class="path"><a href="#">全部体验套装</a></span>
+        </div>
+    <div class="pageTitle">
+      <h3>绿茶精萃平衡保湿特别套装</h3>
+        <img src="./image/icon_innibest.png" alt="">
+    </div>
+        <!--产品左侧图片-->
+        <div class="productDetail">
+          <!--<div class="picLeft">-->
+              <!--<img src="./image/1000008920_l.png" alt="">-->
+          <!--</div>-->
+          <!--<div class="share">-->
+             <!--<span>分享到:</span>-->
+             <!--<a href="http://connect.qq.com/widget/shareqq/index.html?url=https%3A%2F%2Fwww.innisfree.cn%2FProduct.do%3Fmethod%3DproductView%26seq%3D1000008920%26tp%3D1&title=%E7%BB%BF%E8%8C%B6%E7%B2%BE%E8%90%83%E5%B9%B3%E8%A1%A1%E4%BF%9D%E6%B9%BF%E7%89%B9%E5%88%AB%E5%A5%97%E8%A3%85&source=https%3A%2F%2Fwww.innisfree.cn%2FProduct.do%3Fmethod%3DproductView%26seq%3D1000008920%26tp%3D1&desc=%E7%BB%BF%E8%8C%B6%E7%B2%BE%E8%90%83%E5%B9%B3%E8%A1%A1%E4%BF%9D%E6%B9%BF%E7%89%B9%E5%88%AB%E5%A5%97%E8%A3%85&pics=https%3A%2F%2Fwww.innisfree.cn%2Fcn_resources%2Fimages%2Flayout%2Flogo.png">-->
+                 <!--<img src="./image/qq.png" alt="">-->
+             <!--</a>-->
+             <!--<a href="http://service.weibo.com/share/share.php?url=https%3A%2F%2Fwww.innisfree.cn%2FProduct.do%3Fmethod%3DproductView%26seq%3D1000008920%26tp%3D1&title=%E7%BB%BF%E8%8C%B6%E7%B2%BE%E8%90%83%E5%B9%B3%E8%A1%A1%E4%BF%9D%E6%B9%BF%E7%89%B9%E5%88%AB%E5%A5%97%E8%A3%85&pic=https%3A%2F%2Fwww.innisfree.cn%2Fcn_resources%2Fimages%2Flayout%2Flogo.png&appkey=#_loginLayer_1511510437629">-->
+                 <!--<img src="./image/weibo.png" alt="">-->
+             <!--</a>-->
+              <!--<a href="http://sns.qzone.qq.com/cgi-bin/qzshare/cgi_qzshare_onekey?url=https%3A%2F%2Fwww.innisfree.cn%2FProduct.do%3Fmethod%3DproductView%26seq%3D1000008920%26tp%3D1&amp;title=%E7%BB%BF%E8%8C%B6%E7%B2%BE%E8%90%83%E5%B9%B3%E8%A1%A1%E4%BF%9D%E6%B9%BF%E7%89%B9%E5%88%AB%E5%A5%97%E8%A3%85&amp;desc=%E7%BB%BF%E8%8C%B6%E7%B2%BE%E8%90%83%E5%B9%B3%E8%A1%A1%E4%BF%9D%E6%B9%BF%E7%89%B9%E5%88%AB%E5%A5%97%E8%A3%85&amp;summary=%E7%BB%BF%E8%8C%B6%E7%B2%BE%E8%90%83%E5%B9%B3%E8%A1%A1%E4%BF%9D%E6%B9%BF%E7%89%B9%E5%88%AB%E5%A5%97%E8%A3%85&amp;site=https%3A%2F%2Fwww.innisfree.cn%2FProduct.do%3Fmethod%3DproductView%26seq%3D1000008920%26tp%3D1">-->
+                  <!--<img src="./image/qzone.png" alt="">-->
+              <!--</a>-->
+              <!--<a href="">-->
+                  <!--<img src="./image/wechat.png" alt="">-->
+             <!--</a>-->
+          <!--</div>-->
+            <!--&lt;!&ndash;产品右侧详情&ndash;&gt;-->
+            <!--<div class="pdtDesc">-->
+                <!--<p class="desc">悦诗风吟绿茶精萃平衡保湿水乳套装，济州岛纯净绿茶水的新鲜水分，打造水感透润肌肤</p>-->
+                <!--<div class="descList">-->
+                    <!--<dl class="code">-->
+                        <!--<dt>商品编码</dt>-->
+                        <!--<dd>1000008920</dd>-->
+                    <!--</dl>-->
+                    <!--<dl class="status">-->
+                        <!--<dt>状态</dt>-->
+                        <!--<dd>销售中</dd>-->
+                    <!--</dl>-->
+                    <!--<dl class="normalprice">-->
+                        <!--<dt>市场价</dt>-->
+                        <!--<dd>¥230.0 </dd>-->
+                    <!--</dl>-->
+                    <!--<dl class="point">-->
+                        <!--<dt>-->
+                            <!--<span>购物积分</span>-->
+                            <!--<a href="#">-->
+                                <!--<img src="./image/icon_question_23x22.png" alt="">-->
+                            <!--</a>-->
+                        <!--</dt>-->
+                        <!--<dd>-->
+                            <!--<span>40%</span>-->
+                            <!--<span>92P </span>-->
+                        <!--</dd>-->
+                    <!--</dl>-->
+                    <!--<dl class="manufacture">-->
+                        <!--<dt>产地</dt>-->
+                        <!--<dd>韩国 </dd>-->
+                    <!--</dl>-->
+                    <!--<dl class="quantity">-->
+                        <!--<dt>购买数量</dt>-->
+                        <!--<dd>-->
+                        <!--<span class="qForm">-->
+                            <!--<input type="text" style="width:27px; height:19px;margin-right: 17px;" value="1">-->
+                               <!--<button  class="btnUp"></button>-->
+                               <!--<button class="btnDonw"></button>-->
+                        <!--</span> 个-->
+                        <!--</dd>-->
+                    <!--</dl>-->
+                <!--</div>-->
+                <!--&lt;!&ndash;总计金额/&ndash;&gt;-->
+                <!--<p class="totalPrice">-->
+                    <!--<span>总计</span>-->
+                    <!--<em id="totalPrice">¥230.0</em>-->
+                <!--</p>-->
+                <!--<p class="chanceDesc">-->
+                <!--</p>-->
+                <!--&lt;!&ndash;购物按钮&ndash;&gt;-->
+                <!--<div class="btnShopping">-->
+                    <!--<a href="#">-->
+                        <!--<img src="./image/btn_buyNow.gif" alt="立即购买">-->
+                    <!--</a>-->
+                    <!--<a href="#">-->
+                        <!--<img src="./image/btn_shoppingCart.gif" alt="放入购物车">-->
+                    <!--</a>-->
+                    <!--<a href="#">-->
+                        <!--<img src="./image/btn_wish.gif" alt="放入收藏夹">-->
+                    <!--</a>-->
+                <!--</div>-->
+<!--&lt;!&ndash;用户评价&ndash;&gt;-->
+                <!--<dl class="buySatisfy">-->
+                    <!--<dt>-->
+                        <!--<img src="./image/txt_buysatisfy.gif" alt="商品评价">-->
+                    <!--</dt>-->
+                    <!--<dd class="buySatisfy_icon">-->
+                        <!--<img src="./image/icon_review2_4.png">-->
+                    <!--</dd>-->
+                    <!--<dd class="buyReview">-->
+                        <!--<ul>-->
+                            <!--<li class="first-child">-->
+                                <!--<a href="#">分享小清新 : <span>75</span> 条 |</a>-->
+                            <!--</li>-->
+                            <!--<li>-->
+                                <!--<a href="#">用户评价 : <span>505</span> 条</a>-->
+                            <!--</li>-->
+                        <!--</ul>-->
+                    <!--</dd>-->
+                    <!--<dd class="buyList">-->
+                        <!--<ul>-->
+                            <!--<li>-->
+                                <!--<a href="#">绿茶套装</a>-->
+                            <!--</li>-->
+                            <!--<li><a href="#">绿茶套装</a>-->
+                            <!--</li>-->
+                            <!--<li><a href="#">绿茶套装</a>-->
+                            <!--</li>-->
+                        <!--</ul>-->
+                    <!--</dd>-->
+                <!--</dl>-->
+            <!--</div>-->
+        </div>
+<!--商品信息-->
+<div class="proLogin">
+    <!--优惠登录-->
+   <div class="grayBox">
+      <p class="lef">请登录网站来查看您所有的优惠券和其他优惠内容。</p>
+      <p class="rig">
+          <a href="Innisfree-login.html">
+              <span>登录</span>
+          </a>
+      </p>
+   </div>
+    <!--商品信息详情-->
+    <div class="information">
+        <h5>
+            <img src="./image/title_pdtSumarry.gif" alt="">
+        </h5>
+        <table class="pdInfor" cellpadding="0" cellspacing="0">
+            <tbody>
+              <tr>
+                  <th>
+                      <p>商品名称</p>
+                  </th>
+                  <td>
+                      <p>绿茶精萃平衡保湿特别套装</p>
+                  </td>
+                  <th>
+                      <p>类型</p>
+                  </th>
+                  <td>
+                      <p>全部体验套装</p>
+                  </td>
+              </tr>
+              <tr>
+                  <th>
+                      <p>适用肤质</p>
+                  </th>
+                  <td>
+                      <p>所有肌肤</p>
+                  </td>
+                  <th>
+                      <p>容量</p>
+                  </th>
+                  <td>
+                      <p></p>
+                  </td>
+              </tr>
+              <tr>
+                  <th>
+                      <p>适用部位</p>
+                  </th>
+                  <td>
+                      <p></p>
+                  </td>
+                  <th>
+                      <p>主要功效</p>
+                  </th>
+                  <td>
+                      <p>补水保湿</p>
+                  </td>
+              </tr>
+              <tr>
+                  <th>
+                      <p>使用注意事项</p>
+                  </th>
+                  <td colspan="3">
+                      <p></p>
+                  </td>
+              </tr>
+              <tr>
+                  <th>
+                      <p>产品成分</p>
+                  </th>
+                  <td colspan="3">
+                      <p></p>
+                  </td>
+              </tr>
+            </tbody>
+        </table>
+    </div>
+</div>
+<!--详情页面-->
+<ul class="tabType">
+    <li>
+        <a href="javascript:">
+            <img src="./image/productDetail_tab1_on.gif" alt="">
+        </a>
+    </li>
+    <li>
+        <a href="javascript:">
+            <img src="./image/productDetail_tab2.gif" alt="">
+        </a>
+    </li>
+    <li>
+        <a href="javascript:">
+            <img src="./image/productDetail_tab3.gif" alt="">
+        </a>
+    </li>
+    <li>
+        <a href="javascript:">
+            <img src="./image/productDetail_tab4.gif" alt="">
+        </a>
+    </li>
+</ul>
+<!--商品图片-->
+<div class="tabInfo">
+   <!--左边详情-->
+    <div class="infoLe">
+        <!-- <img src="./image/1000008920_1.jpg" alt=""> -->
+    </div>
+    <!--右边详情-->
+    <div class="infoRi">
+      <h5>
+          <img src="./image/title_cateBest.png" alt="">
+      </h5>
+       <div class="riList">
+           <span class="paper"></span>
+           <ul>
+               <li>
+                   <a href="Innisfree-product.html">
+                       <span>
+                           <img src="./image/1000009142_m.png" alt="">
+                       </span>
+                       <span class="proName">发酵豆弹力紧致水乳套装 </span>
+                       <span class="price">￥420.0</span>
+                   </a>
+               </li>
+               <li>
+                   <a href="Innisfree-product.html">
+                       <span>
+                           <img src="./image/1000008920_m.png" alt="">
+                       </span>
+                       <span class="proName">绿茶精萃平衡保湿特别套装  </span>
+                       <span class="price">￥230.0</span>
+                   </a>
+               </li>
+               <li>
+                   <a href="Innisfree-product.html">
+                       <span>
+                           <img src="./image/1000009742_m.png" alt="">
+                       </span>
+                       <span class="proName">济州岛寒兰至润水乳套装 </span>
+                       <span class="price">¥340.0</span>
+                   </a>
+               </li>
+           </ul>
+       </div>
+    </div>
+</div>
+<!--分享小清新-->
+<ul class="tabType">
+     <li>
+         <a href="javascript:" style="background:#fbfbfb url(./image/BG_tabTypeB.gif)repeat-x left bottom;">
+             <img src="./image/productDetail_tab1.gif" alt="">
+         </a>
+     </li>
+     <li>
+         <a href="javascript:" style="background: #fff">
+             <img src="./image/productDetail_tab2_on.gif" alt="">
+         </a>
+     </li>
+     <li>
+          <a href="javascript:">
+             <img src="./image/productDetail_tab3.gif" alt="">
+          </a>
+     </li>
+     <li>
+          <a href="javascript:">
+              <img src="./image/productDetail_tab4.gif" alt="">
+          </a>
+     </li>
+</ul>
+<div class="photo">
+    <h5>
+        <img src="./image/title_photoReview.gif" alt="">
+        <strong>(<span>75</span>条)</strong>
+    </h5>
+    <div class="photoList">
+       <ul class="sort">
+           <li>
+               <a href="javascript:">
+                   <span>按最新顺序排列</span>
+               </a>
+           </li>
+           <li>
+               <a href="javascript:">
+                   <span>按点击次数排列</span>
+               </a>
+           </li>
+           <li style="background: none">
+               <a href="javascript:">
+                   <span>只看最佳</span>
+               </a>
+           </li>
+       </ul>
+        <div class="box">
+            <ul>
+                <li>
+                    <a href="javascript:">
+                        <span class="thumb">
+                            <img src="./image/290018.png" alt="">
+                        </span>
+                        <strong>绿茶套装 (1)</strong>
+                        <span class="writer">
+                            <span>
+                                <img src="./image/icon_top10.gif" alt="">
+                            </span>
+                            <span>
+                                INI******
+                            </span>
+                        </span>
+                    </a>
+                </li>
+                <li>
+                    <a href="javascript:">
+                        <span class="thumb">
+                            <img src="./image/290018.png" alt="">
+                        </span>
+                        <strong>绿茶套装 (1)</strong>
+                        <span class="writer">
+                            <span>
+                                <img src="./image/icon_top10.gif" alt="">
+                            </span>
+                            <span>
+                                INI******
+                            </span>
+                        </span>
+                    </a>
+                </li>
+                <li>
+                    <a href="javascript:">
+                        <span class="thumb">
+                            <img src="./image/290018.png" alt="">
+                        </span>
+                        <strong>绿茶套装 (1)</strong>
+                        <span class="writer">
+                            <span>
+                                <img src="./image/icon_top10.gif" alt="">
+                            </span>
+                            <span>
+                                INI******
+                            </span>
+                        </span>
+                    </a>
+                </li>
+                <li>
+                    <a href="javascript:">
+                        <span class="thumb">
+                            <img src="./image/290018.png" alt="">
+                        </span>
+                        <strong>绿茶套装 (1)</strong>
+                        <span class="writer">
+                            <span>
+                                <img src="./image/icon_top10.gif" alt="">
+                            </span>
+                            <span>
+                                INI******
+                            </span>
+                        </span>
+                    </a>
+                </li>
+                <li>
+                    <a href="javascript:">
+                        <span class="thumb">
+                            <img src="./image/290018.png" alt="">
+                        </span>
+                        <strong>绿茶套装 (1)</strong>
+                        <span class="writer">
+                            <span class="icon">
+                                <img src="./image/icon_top10.gif" alt="">
+                            </span>
+                            <span>
+                                INI******
+                            </span>
+                        </span>
+                    </a>
+                </li>
+            </ul>
+        </div>
+        <!--分页页码-->
+        <div class="page">
+            <a href="#">
+                <img src="./image/paging_first.gif" alt=""/>
+            </a>
+            <a href="#" class="curr">1</a>
+            <a href="#">2</a>
+            <a href="#">3</a>
+            <a href="#">4</a>
+            <a href="#">5</a>
+            <a href="#">6</a>
+            <a href="#">7</a>
+            <a href="#">
+                <img src="./image/paging_next.gif" alt="">
+            </a>
+            <a href="#">
+                <img src="./image/paging_last.gif" alt=""/>
+            </a>
+            <p class="btnR">
+                <a href="javascript:">
+                    <img src="./image/btn_buyReviewAll.gif" alt="">
+                </a>
+            </p>
+        </div>
+    </div>
+</div>
+<!--用户评价-->
+        <ul class="tabType">
+            <li>
+                <a href="javascript:" style="background:#fbfbfb url(./image/BG_tabTypeB.gif)repeat-x left bottom;">
+                    <img src="./image/productDetail_tab1.gif" alt="">
+                </a>
+            </li>
+            <li>
+                <a href="javascript:" style="background:#fbfbfb url(./image/BG_tabTypeB.gif)repeat-x left bottom;" >
+                    <img src="./image/productDetail_tab2.gif" alt="">
+                </a>
+            </li>
+            <li>
+                <a href="javascript:" style="background: #fff">
+                    <img src="./image/productDetail_tab3_on.gif" alt="">
+                </a>
+            </li>
+            <li>
+                <a href="javascript:">
+                    <img src="./image/productDetail_tab4.gif" alt="">
+                </a>
+            </li>
+        </ul>
+   <div class="buyReview">
+       <h5>
+           <img src="./image/title_buyReview.gif" alt="">
+           <strong>(<span>508</span>条)</strong>
+       </h5>
+       <div class="buyReviewList">
+           <table cellpadding="0" cellspacing="0">
+               <thead>
+                   <tr>
+                       <th>No.</th>
+                       <th>商品评价</th>
+                       <th>作者</th>
+                       <th>登录日期</th>
+                       <th class="last-child">商品满意度</th>
+                   </tr>
+               </thead>
+               <tbody class="allView">
+                  <tr>
+                      <td>507</td>
+                      <td class="title"><a href="javascript:">挺好用的 一直用这牌子</a></td>
+                      <td>yoongie(20代/女性)</td>
+                      <td>2017-12-03</td>
+                      <td class="last-child">
+                          <img src="./image/icon_review5.png" alt="">
+                      </td>
+                  </tr>
+                  <tr>
+                      <td>506</td>
+                      <td class="title"><a href="javascript:">保湿很好</a></td>
+                      <td>INI1153897(20代/女性)</td>
+                      <td>2017-11-30</td>
+                      <td class="last-child">
+                          <img src="./image/icon_review5.png" alt="">
+                      </td>
+                  </tr>
+                  <tr>
+                      <td>507</td>
+                      <td class="title"><a href="javascript:">挺好用的 一直用这牌子</a></td>
+                      <td>yoongie(20代/女性)</td>
+                      <td>2017-12-03</td>
+                      <td class="last-child">
+                          <img src="./image/icon_review5.png" alt="">
+                      </td>
+                  </tr>
+                  <tr>
+                      <td>507</td>
+                      <td class="title"><a href="javascript:">挺好用的 一直用这牌子</a></td>
+                      <td>yoongie(20代/女性)</td>
+                      <td>2017-12-03</td>
+                      <td class="last-child">
+                          <img src="./image/icon_review5.png" alt="">
+                      </td>
+                  </tr>
+                  <tr>
+                      <td>507</td>
+                      <td class="title"><a href="javascript:">挺好用的 一直用这牌子</a></td>
+                      <td>yoongie(20代/女性)</td>
+                      <td>2017-12-03</td>
+                      <td class="last-child">
+                          <img src="./image/icon_review5.png" alt="">
+                      </td>
+                  </tr>
+                  <tr>
+                      <td>507</td>
+                      <td class="title"><a href="javascript:">挺好用的 一直用这牌子</a></td>
+                      <td>yoongie(20代/女性)</td>
+                      <td>2017-12-03</td>
+                      <td class="last-child">
+                          <img src="./image/icon_review5.png" alt="">
+                      </td>
+                  </tr>
+                  <tr>
+                      <td>507</td>
+                      <td class="title"><a href="javascript:">挺好用的 一直用这牌子</a></td>
+                      <td>yoongie(20代/女性)</td>
+                      <td>2017-12-03</td>
+                      <td class="last-child">
+                          <img src="./image/icon_review5.png" alt="">
+                      </td>
+                  </tr>
+                  <tr>
+                      <td>507</td>
+                      <td class="title"><a href="javascript:">挺好用的 一直用这牌子</a></td>
+                      <td>yoongie(20代/女性)</td>
+                      <td>2017-12-03</td>
+                      <td class="last-child">
+                          <img src="./image/icon_review5.png" alt="">
+                      </td>
+                  </tr>
+                  <tr>
+                      <td>507</td>
+                      <td class="title"><a href="javascript:">挺好用的 一直用这牌子</a></td>
+                      <td>yoongie(20代/女性)</td>
+                      <td>2017-12-03</td>
+                      <td class="last-child">
+                          <img src="./image/icon_review5.png" alt="">
+                      </td>
+                  </tr>
+                  <tr>
+                      <td>507</td>
+                      <td class="title"><a href="javascript:">挺好用的 一直用这牌子</a></td>
+                      <td>yoongie(20代/女性)</td>
+                      <td>2017-12-03</td>
+                      <td class="last-child">
+                          <img src="./image/icon_review5.png" alt="">
+                      </td>
+                  </tr>
+               </tbody>
+           </table>
+       </div>
+       <!--分页页码-->
+       <div class="page">
+           <a href="#">
+               <img src="./image/paging_first.gif" alt=""/>
+           </a>
+           <a href="#" class="curr">1</a>
+           <a href="#">2</a>
+           <a href="#">3</a>
+           <a href="#">4</a>
+           <a href="#">5</a>
+           <a href="#">6</a>
+           <a href="#">7</a>
+           <a href="#">
+               <img src="./image/paging_next.gif" alt="">
+           </a>
+           <a href="#">
+               <img src="./image/paging_last.gif" alt=""/>
+           </a>
+           <p class="btnR">
+               <a href="javascript:">
+                   <img src="./image/btn_buyReviewAll.gif" alt="">
+               </a>
+           </p>
+       </div>
+       <div class="buyReviewMsg">
+           <ul>
+               <li>- 只有在官网商城购买商品的会员才有权发表用户评价</li>
+               <li>- 发表用户评价，可获赠30绿色积分 (仅限1日1次)</li>
+               <li>- 删除用户评价的同时，绿色积分也会有相应减少</li>
+           </ul>
+       </div>
+   </div>
+<!--结算 购买注意事项-->
+        <ul class="tabType">
+            <li>
+                <a href="javascript:" style="background:#fbfbfb url(./image/BG_tabTypeB.gif)repeat-x left bottom;">
+                    <img src="./image/productDetail_tab1.gif" alt="">
+                </a>
+            </li>
+            <li>
+                <a href="javascript:" style="background:#fbfbfb url(./image/BG_tabTypeB.gif)repeat-x left bottom;" >
+                    <img src="./image/productDetail_tab2.gif" alt="">
+                </a>
+            </li>
+            <li>
+                <a href="javascript:" style="background:#fbfbfb url(./image/BG_tabTypeB.gif)repeat-x left bottom;">
+                    <img src="./image/productDetail_tab3.gif" alt="">
+                </a>
+            </li>
+            <li>
+                <a href="javascript:" style="background: #fff">
+                    <img src="./image/productDetail_tab4_on.gif" alt="">
+                </a>
+            </li>
+        </ul>
+   <div class="caution">
+       <img src="./image/txt_caution_170615.gif" alt="">
+   </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    </div>
+</div>
+    <!--右侧边栏-->
+    <div class="rightSide  notchangerig">
+        <a href="#">
+            <img src="./image/ico_renewal01.jpg" alt=""/>
+        </a>
+        <ul class="type1">
+            <li class="links">
+                <a href="#">
+                    <img src="./image/ico_renewal09_170717.jpg" alt=""/>
+                </a>
+                <a href="none" class="shopNum">0</a>
+            </li>
+            <li class="links">
+                <a href="#">
+                    <img src="./image/ico_renewal02_170717.jpg" alt=""/>
+                </a>
+            </li>
+            <li class="links">
+                <a href="#">
+                    <img src="./image/ico_renewal03_170717.jpg" alt=""/>
+                </a>
+            </li>
+        </ul>
+        <div class="recent">
+            <a href="#">
+                <img src="./image/1000010822_s.png" alt=""/>
+            </a>
+            <button type="button" class="last"></button>
+            <button type="button" class="next"></button>
+        </div>
+        <div>
+            <img src="./image/ico_renewal05.jpg" alt=""/>
+        </div>
+        <ul>
+            <li>
+                <a href="#">
+                    <img src="./image/ico_renewal06.jpg" alt=""/>
+                </a>
+            </li>
+            <li>
+                <a href="#">
+                    <img src="./image/ico_renewal07.jpg" alt=""/>
+                </a>
+            </li>
+        </ul>
+        <a href="#" class="top">
+            <img src="./image/ico_renewal08.jpg" alt=""/>
+        </a>
+    </div>
+    <!--左侧边栏-->
+    <div class="leftSide notchangeleft">
+        <img src="./image/qrcode_renewal1.jpg" alt="" style="margin-bottom: 10px"/>
+        <img src="./image/qrcode_renewal2.jpg" alt=""/>
+    </div>
+</div>
+<!--footer-->
+<div id="footer">
+    <div class="on">
+        <div class="menuCate">
+            <!--第一行-->
+            <div class="menuList">
+                <a href="#">
+                    <img src="./image/txt_footerCategory1.png" alt=""/>
+                </a>
+                <ul class="subCate">
+                    <li>
+                        <a href="Innisfree-product.html">基础护理</a>
+                    </li>
+                    <li>
+                        <a href="Innisfree-product.html">面膜</a>
+                    </li>
+                    <li>
+                        <a href="Innisfree-product.html">洁面与卸妆</a>
+                    </li>
+                    <li>
+                        <a href="Innisfree-product.html">防晒</a>
+                    </li>
+                    <li>
+                        <a href="Innisfree-product.html">面部底妆</a>
+                    </li>
+                    <li>
+                        <a href="Innisfree-product.html">彩妆</a>
+                    </li>
+                    <li>
+                        <a href="Innisfree-product.html">指甲油</a>
+                    </li>
+                    <li>
+                        <a href="Innisfree-product.html">身体护理</a>
+                    </li>
+                    <li>
+                        <a href="Innisfree-product.html">男士系列</a>
+                    </li>
+                    <li>
+                        <a href="Innisfree-product.html">优惠套装</a>
+                    </li>
+                    <li>
+                        <a href="Innisfree-product.html">美容工具</a>
+                    </li>
+                    <li>
+                        <a href="Innisfree-product.html">新商品</a>
+                    </li>
+                    <li>
+                        <a href="Innisfree-product.html">Inni 产品地图</a>
+                    </li>
+                    <li>
+                        <a href="Innisfree-product.html">限时活动</a>
+                    </li>
+                    <li>
+                        <a href="Innisfree-product.html">小清新热荐</a>
+                    </li>
+                </ul>
+            </div>
+            <!--第二行-->
+            <div class="menuList">
+                <a href="#">
+                    <img src="./image/txt_footerCategory2.png" alt=""/>
+                </a>
+                <ul class="subCate" style="padding-bottom: 30px;">
+                    <li>
+                        <a href="#">正在进行的活动</a>
+                    </li>
+                    <li>
+                        <a href="#">过去进行的活动</a>
+                    </li>
+                    <li>
+                        <a href="#">美丽体验</a>
+                    </li>
+                    <li>
+                        <a href="#">活动中奖者名单</a>
+                    </li>
+                </ul>
+                <a href="#">
+                    <img src="./image/txt_footerCategory3.png" alt=""/>
+                </a>
+                <ul class="subCate">
+                    <li>
+                        <a href="Innisfree-login.html">登录</a>
+                    </li>
+                    <li>
+                        <a href="#">加入会员</a>
+                    </li>
+                    <li>
+                        <a href="#">购物车</a>
+                    </li>
+                    <li>
+                        <a href="#">我的主页</a>
+                    </li>
+                    <li>
+                        <a href="#">客服中心</a>
+                    </li>
+                    <li>
+                        <a href="#">专卖店导航</a>
+                    </li>
+                </ul>
+            </div>
+            <!--第三行-->
+            <div class="menuList">
+                <a href="#">
+                    <img src="./image/txt_footerCategory4.png" alt=""/>
+                </a>
+                <ul class="subCate" style="padding-bottom: 30px;">
+                    <li>
+                        <a href="#">分享小清新</a>
+                    </li>
+                    <li>
+                        <a href="#">绿茶农场游戏</a>
+                    </li>
+                    <li>
+                        <a href="#">inni社交圈</a>
+                    </li>
+                    <li>
+                        <a href="#">inni粉积分榜</a>
+                    </li>
+                </ul>
+                <a href="#">
+                    <img src="./image/txt_footerCategory5.png" alt=""/>
+                </a>
+                <ul class="subCate">
+                    <li>
+                        <a href="#">公告板</a>
+                    </li>
+                    <li>
+                        <a href="#">使用说明</a>
+                    </li>
+                    <li>
+                        <a href="#">会员服务</a>
+                    </li>
+                    <li>
+                        <a href="#">1:1在线咨询</a>
+                    </li>
+                    <li>
+                        <a href="#">Q&A 留言板</a>
+                    </li>
+                    <li>
+                        <a href="#">FAQ</a>
+                    </li>
+                </ul>
+            </div>
+            <!--第四行-->
+            <div class="menuList">
+                <a href="#">
+                    <img src="./image/txt_footerCategory6.png" alt=""/>
+                </a>
+                <ul class="subCate" style="padding-bottom: 30px;">
+                    <li>
+                        <a href="#">品牌介绍</a>
+                    </li>
+                    <li>
+                        <a href="#">社会贡献</a>
+                    </li>
+                    <li>
+                        <a href="#">广告视频</a>
+                    </li>
+                </ul>
+                <a href="#">
+                    <img src="./image/txt_footerCategory7.png" alt=""/>
+                </a>
+                <ul class="subCate">
+                    <li>
+                        <a href="#">济州之家介绍</a>
+                    </li>
+                    <li>
+                        <a href="#">济州治愈音乐</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <!--咨询-->
+        <div class="info">
+            <img src="./image/txt_footerCategory8.png" alt=""/>
+            <dl>
+                <dt>小清新（售前）周一到周日</dt>
+                <dd>9:00~24:00</dd>
+                <dt style="padding-top: 10px;">官网客服热线:</dt>
+                <dd>021-61255625 (9:00~24:00)</dd>
+                <dt>产品咨询热线:</dt>
+                <dd>400-920-9238</dd>
+                <dd>800-820-3596</dd>
+                <dd>周一至周日 09:00-21:00</dd>
+                <dd>(不含国定假日)</dd>
+            </dl>
+        </div>
+        <div class="vigilant">
+            <span>★</span>
+            近期有不法分子冒用品牌官网客服名义电话联系消费者进行诈骗，
+            <br/>
+            innisfree官网提醒广大小清新们，关注我们的官方网站上面的电话，
+            <br/>
+            除此之外的所有电话联系均非品牌客服行为，请小清新们注意辨别，
+            <br/>
+            提高警惕!
+        </div>
+        <!--logo-->
+        <div class="logoLeft"></div>
+        <div class="logoRight">
+            <a href="#">
+                <img src="./image/ico_footerMark11.png" alt=""/>
+            </a>
+            <a href="#">
+                <img src="./image/ico_footerMark2.png" alt=""/>
+            </a>
+            <a href="#">
+                <img src="./image/ico_footerMark3.png" alt=""/>
+            </a>
+            <a href="#">
+                <img src="./image/ico_footerMark1.png" alt=""/>
+                <span style="vertical-align: bottom;font-weight: bold;">沪公网安备 31010602000985号</span>
+            </a>
+        </div>
+    </div>
+</div>
+</div>
+<script src="js/jquery-3.2.1.min.js"></script>
+<script src="js/inni_productView.js"></script>
+<script src="js/cookie.js"></script>
+</body>
+</html>

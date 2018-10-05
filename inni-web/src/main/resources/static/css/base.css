@@ -1,0 +1,35 @@
+/***************************通用样式************************/
+  body{
+     padding:0;
+	 margin:0;
+  }
+p,h1,h2,h3,h4,h5,h6,ul,ol,dl,dd,pre{
+  margin:0;
+  padding:0;
+  list-style:none;
+  font-size:12px;
+}
+a{
+ text-decoration:none;
+ color:#000;
+  font-size:12px;
+}
+img{
+  vertical-align:middle;
+  border:0;
+}
+.clear:after{
+  content:"";
+  display:block;
+  clear:both;
+}
+.lf{ float:left; } 
+.rf{ float:right;}
+em{
+  font-style:normal;
+}
+tr{
+    display: table-row;
+    vertical-align: inherit;
+    border-color: inherit;
+}

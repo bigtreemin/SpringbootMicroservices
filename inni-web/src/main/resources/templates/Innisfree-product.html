@@ -1,0 +1,1708 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>悦诗风吟官方网站</title>
+    <link rel="stylesheet" href="css/base.css">
+    <link rel="stylesheet" href="css/product.css">
+</head>
+
+<body>
+    <!--页面头部-->
+    <div id="header" style="border-bottom:40px solid #045321;height:124px;">
+        <div class="toHeader">
+            <!-- logo -->
+            <h1 class="logo">
+                <a href="http://localhost:8081/index">
+                    <img src="image/logo.png" alt="" />
+                </a>
+            </h1>
+            <!-- 导航菜单 -->
+            <div class="menu">
+                <p class="welcome">
+                    <img src="image/txt_welcomeMsg.png" />
+                </p>
+                <ul class="list">
+                <li class="user"><a href="#"></a></li>
+                    <li class="user login">
+                        <a href="http://localhost:8081/login">
+                            <img src="image/header_util_login.png" />
+                        </a>
+                    </li>
+                    <li>
+                        <a href="http://localhost:8081/register">
+                            <img src="image/header_util_register.png" />
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <img src="image/header_util_cart.png" />
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <img src="image/header_util_mypage.png" />
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <img src="image/header_util_cs.png" />
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <img src="image/header_util_findShop.png" />
+                        </a>
+                    </li>
+                </ul>
+            </div>
+            <!-- 产品推荐 -->
+            <div class="quickMenu">
+                <ul>
+                    <li>
+                        <a href="Innisfree-product.html">
+                            <img src="image/header_quick_bestseller.png" />
+                        </a>
+                    </li>
+                    <li>
+                        <a href="Innisfree-product.html">
+                            <img src="image/header_quick_newPdt.png" />
+                        </a>
+                    </li>
+                    <li>
+                        <a href="Innisfree-product.html">
+                            <img src="image/header_quick_mdsPick.png" />
+                        </a>
+                    </li>
+                </ul>
+            </div>
+            <!-- 搜索框 -->
+            <div class="search">
+                <span class="searchWord">
+                    <input type="text" class="product" placeholder="小绿瓶">
+                </span>
+                <input type="image" class="imputImage" src="image/btn_search.png">
+            </div>
+            <!-- 推荐产品 -->
+            <div class="menuHigh">
+                <ul>
+                <li>
+                    <a href="http://localhost:8081/itemView?pid=3">红石榴气垫</a>
+                </li>
+                <li>
+                    <a href="http://localhost:8081/itemView?pid=37">真萃面膜</a>
+                </li>
+                <li>
+                    <a href="http://localhost:8081/itemView?pid=5">石榴精华露</a>
+                </li>
+                <li>
+                    <a href="http://localhost:8081/itemView?pid=3">护手霜</a>
+                </li>
+            </ul>
+            </div>
+            <!-- 探店指南 -->
+            <div class="headerAd">
+                <a href="#">
+                    <img src="./image/header_ad_renewal.jpg" alt="">
+                </a>
+            </div>
+            <!-- 购物、登录导航 -->
+            <div class="shoppingLoginNav">
+                <div class="quickShopping">
+                    <a href="#" id="dropDown">
+                        <img src="./image/gnb_quickShopping.gif" alt="" style="float:left">
+                    </a>
+                    <!-- 隐藏购物通道下拉 -->
+                    <div class="quickShoppingHid">
+                        <div class="top">
+                            <h2>
+                                <img src="./image/title_quickShopping.png" alt="">
+                            </h2>
+                            <img src="./image/bar_1x9_666666.gif" alt="" class="line">
+                            <p class="desc">
+                                <img src="./image/desc_quickShopping.png" alt="">
+                            </p>
+                        </div>
+                        <div class="searchOption">
+                            <form action="" class="searchBox">
+                                <dl class="option1">
+                                    <dt>选择产品类型</dt>
+                                    <img src="./image/bar_1x9_666666.gif" alt="" class="line">
+                                    <dd>
+                                        <select class="selePro">
+                                            <option value="1">请选择菜单</option>
+                                            <option value="2">基础护理</option>
+                                            <option value="3">洁面与卸妆</option>
+                                            <option value="4">面膜</option>
+                                            <option value="5">面部底妆</option>
+                                            <option value="6">身体护理</option>
+                                            <option value="7">男士系列</option>
+                                            <option value="8">美容工具</option>
+                                            <option value="9">优惠套装</option>
+                                            <option value="10">指甲油</option>
+                                            <option value="11">彩妆</option>
+                                            <option value="12">防嗮</option>
+                                        </select>
+                                        <span class="arr"></span>
+                                        <select>
+                                            <option value="1">请选择菜单</option>
+                                            <option value="2">护肤水</option>
+                                            <option value="3">乳液</option>
+                                            <option value="4">精华液</option>
+                                            <option value="5">面霜</option>
+                                            <option value="6">眼霜</option>
+                                            <option value="7">喷雾</option>
+                                            <option value="8">唇部护理</option>
+                                        </select>
+                                    </dd>
+                                </dl>
+                                <dl class="option2">
+                                    <dt>选择护肤类型</dt>
+                                    <img src="./image/bar_1x9_666666.gif" alt="" class="line">
+                                    <dd>
+                                        <select class="selePro">
+                                            <option value="1">请选择菜单</option>
+                                            <option value="2">绿茶精粹</option>
+                                            <option value="3">橄榄</option>
+                                            <option value="4">浆果美白</option>
+                                            <option value="5">火山岩泥</option>
+                                            <option value="6">生机展颜</option>
+                                            <option value="7">香榧</option>
+                                            <option value="8">红酒</option>
+                                            <option value="9">济州石榴</option>
+                                            <option value="10">油菜花蜜</option>
+                                            <option value="11">青麦</option>
+                                            <option value="12">生机蜜柑维C</option>
+                                        </select>
+                                    </dd>
+                                </dl>
+                                <dl class="option3">
+                                    <dt>选择价格</dt>
+                                    <img src="./image/bar_1x9_666666.gif" alt="" class="line">
+                                    <dd>
+                                        <ul>
+                                            <li>
+                                                <input type="radio">All~</li>
+                                            <li>
+                                                <input type="radio">100 RMB 以下</li>
+                                            <li>
+                                                <input type="radio">100~200 RMB</li>
+                                            <li>
+                                                <input type="radio">200~300 RMB</li>
+                                            <li>
+                                                <input type="radio">300 RMB~</li>
+                                            <li class="rightLi">
+                                                <input type="radio">按最新排序</li>
+                                            <li class="rightLi">
+                                                <input type="radio">按人气排序</li>
+                                            <li class="rightLi">
+                                                <input type="radio">查看打折商品</li>
+                                        </ul>
+                                    </dd>
+                                </dl>
+                            </form>
+                        </div>
+                        <div class="shopSearch">
+                            <a href="http://localhost:8081/item">
+                                <img src="./image/btn_quickShopping_search.png" alt="">
+                            </a>
+                        </div>
+                    </div>
+                    <!-- 列表 -->
+                    <ul class="gnList">
+                        <li class="list1 list">
+                            <a href="#">品牌介绍</a>
+                            <div class="subMenu1 subMenu">
+                                <ul class="subList">
+                                    <li>
+                                        <a href="#">品牌介绍</a>
+                                    </li>
+                                    <li>
+                                        <a href="#">公益项目</a>
+                                    </li>
+                                    <li>
+                                        <a href="#">悦诗风吟广告</a>
+                                    </li>
+                                    <li>
+                                        <a href="#">玩转小清新</a>
+                                    </li>
+                                </ul>
+                                <p>
+                                    <img src="./image/gnbMenu1_banner.jpg" alt="" />
+                                </p>
+                            </div>
+                        </li>
+                        <li class="list2 list">
+                            <a href="#">济州岛故事</a>
+                            <div class="subMenu2 subMenu">
+                                <ul class="subList">
+                                    <li>
+                                        <a href="#">济州之家介绍</a>
+                                    </li>
+                                    <li>
+                                        <a href="#">济州治愈音乐</a>
+                                    </li>
+                                </ul>
+                                <p>
+                                    <img src="./image/gnbMenu2_banner.jpg" alt="" />
+                                </p>
+                            </div>
+                        </li>
+                        <li class="list3 list">
+                            <a href="#">购物</a>
+                            <div class="subMenu3 subMenu">
+                                <dl class="subGroup1">
+                                    <dt>
+                                        <a href="Innisfree-product.html">产品类别</a>
+                                    </dt>
+                                    <dd>
+                                        <a href="Innisfree-product.html">基础护理</a>
+                                    </dd>
+                                    <dd>
+                                        <a href="Innisfree-product.html">面膜</a>
+                                    </dd>
+                                    <dd>
+                                        <a href="Innisfree-product.html">洁面与卸妆</a>
+                                    </dd>
+                                    <dd>
+                                        <a href="Innisfree-product.html">防晒</a>
+                                    </dd>
+                                    <dd>
+                                        <a href="Innisfree-product.html">面部底妆</a>
+                                    </dd>
+                                    <dd>
+                                        <a href="Innisfree-product.html">彩妆</a>
+                                    </dd>
+                                    <dd>
+                                        <a href="Innisfree-product.html">指甲油</a>
+                                    </dd>
+                                    <dd>
+                                        <a href="Innisfree-product.html">身体护理</a>
+                                    </dd>
+                                    <dd>
+                                        <a href="Innisfree-product.html">男士系列</a>
+                                    </dd>
+                                    <dd>
+                                        <a href="Innisfree-product.html">优惠套装</a>
+                                    </dd>
+                                    <dd>
+                                        <a href="Innisfree-product.html">美容工具</a>
+                                    </dd>
+                                </dl>
+                                <dl class="subGroup2">
+                                    <dt>
+                                        <a href="Innisfree-product.html">护肤系列</a>
+                                    </dt>
+                                    <dd style=" margin-top: -20px;">
+                                        <a href="Innisfree-product.html">绿茶精粹</a>
+                                    </dd>
+                                    <dd>
+                                        <a href="Innisfree-product.html">橄榄</a>
+                                    </dd>
+                                    <dd>
+                                        <a href="Innisfree-product.html">火山岩泥</a>
+                                    </dd>
+                                    <dd>
+                                        <a href="Innisfree-product.html">生机展颜</a>
+                                    </dd>
+                                    <dd>
+                                        <a href="Innisfree-product.html">发酵豆</a>
+                                    </dd>
+                                    <dd>
+                                        <a href="Innisfree-product.html">生机蜜柑维C</a>
+                                    </dd>
+                                    <dd>
+                                        <a href="Innisfree-product.html">济州石榴</a>
+                                    </dd>
+                                    <dd>
+                                        <a href="Innisfree-product.html">雪耳</a>
+                                    </dd>
+                                    <dd>
+                                        <a href="Innisfree-product.html">寒兰</a>
+                                    </dd>
+                                    <dd>
+                                        <a href="Innisfree-product.html">油菜花蜜</a>
+                                    </dd>
+                                    <dd>
+                                        <a href="Innisfree-product.html">香榧</a>
+                                    </dd>
+                                    <dd>
+                                        <a href="Innisfree-product.html">济州岛青麦</a>
+                                    </dd>
+                                    <dd>
+                                        <a href="Innisfree-product.html">济州温泉水</a>
+                                    </dd>
+                                    <dd>
+                                        <a href="Innisfree-product.html">九重臻致</a>
+                                    </dd>
+                                    <dd>
+                                        <a href="Innisfree-product.html">熔岩海水</a>
+                                    </dd>
+                                </dl>
+                                <div class="proBanner">
+                                    <a href="#">
+                                        <img src="./image/gnbShopping_banner_20171030.jpg" alt="" />
+                                    </a>
+                                </div>
+                                <ul class="subGroup3">
+                                    <li>
+                                        <a href="#">
+                                            <img src="./image/gnb_menu3-1.gif" alt="" />
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="#">
+                                            <img src="./image/gnb_menu3-2.gif" alt="" />
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="#">
+                                            <img src="./image/gnb_menu3-3.gif" alt="" />
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="#">
+                                            <img src="./image/gnb_menu3-4.gif" alt="" />
+                                        </a>
+                                    </li>
+                                </ul>
+                                <a href="#" class="btnClose">
+                                    <img src="./image/btn_close_x_666666.gif" alt="" />
+                                </a>
+                            </div>
+                        </li>
+                        <li class="list4 list">
+                            <a href="#">活动</a>
+                            <div class="subMenu4 subMenu">
+                                <ul class="subList">
+                                    <li>
+                                        <a href="#">正在进行的活动</a>
+                                    </li>
+                                    <li>
+                                        <a href="#">过去进行的活动</a>
+                                    </li>
+                                    <li>
+                                        <a href="#">新品试用的活动</a>
+                                    </li>
+                                    <li>
+                                        <a href="#">中奖者名单</a>
+                                    </li>
+                                </ul>
+                                <p>
+                                    <img src="./image/gnbMenu4_banner20150327.jpg" alt="" />
+                                </p>
+                            </div>
+                        </li>
+                        <li class="list5 list">
+                            <a href="#">社区</a>
+                            <div class="subMenu5 subMenu">
+                                <ul class="subList">
+                                href="Innisfree-product.html"
+                                        <a href="#">照片评论</a>
+                                    </li>
+                                    <li>
+                                        <a href="#">绿茶农场游戏</a>
+                                    </li>
+                                    <li>
+                                        <a href="#">inni社交圈</a>
+                                    </li>
+                                    <li>
+                                        <a href="#">inni积分榜</a>
+                                    </li>
+                                    <li>
+                                        <a href="#">美妆秀</a>
+                                    </li>
+                                </ul>
+                                <p>
+                                    <img src="./image/gnbMenu5_banner.jpg" alt="" />
+                                </p>
+                            </div>
+                        </li>
+                    </ul>
+                    <div class="login">
+                        <span class="login-id">
+                            <input type="text" />
+                        </span>
+                        <span class="login-pwd">
+                            <input type="password" />
+                        </span>
+                        <span class="login-btn">
+                            <a href="#">
+                                <img src="./image/btn_login.png" alt="" />
+                            </a>
+                        </span>
+                    </div>
+                </div>
+            </div>
+            <div class="signIn">
+                <a href="#">
+                    <img src="./image/161227_check.png" alt="" />
+                </a>
+            </div>
+        </div>
+    </div>
+    <!--页面主体-->
+    <div id="container">
+        <div class="contents">
+            <div class="location">
+                <span class="home"></span>
+                <span class="path">
+                    <a href="#">商城</a>
+                </span>
+                <span class="path">
+                    <a href="#">产品类别</a>
+                </span>
+                <span class="path">
+                    <a href="#">基础护理</a>
+                </span>
+                <span class="path">
+                    <a href="#">全部</a>
+                </span>
+            </div>
+            <!--产品类别-->
+            <div class="productList">
+                <div class="proTop">
+                    <img src="./image/h2_productType.gif" alt="">
+                </div>
+                <p>
+                    <img src="./image/desc_login.gif" alt="">
+                </p>
+            </div>
+            <!--产品列表-->
+            <div class="proType">
+                <div class="proSelect">
+                    <ul>
+                        <li>
+                            <a href="#">
+                                <img src="./image/categoryLine_on.gif" alt="">
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <img src="./image/categoryType.gif" alt="">
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <img src="./image/categoryMap.gif" alt="">
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+                <ul class="listAll">
+                    <li class="li1 on">
+                        <a href="#">基础护理
+                            <span style="display:block"></span>
+                        </a>
+                        <div class="proBot" style="display:block">
+                            <ul>
+                                <li>
+                                    <a href="#">查看全部</a>
+                                </li>
+                                <li>
+                                    <a href="#">护肤水</a>
+                                </li>
+                                <li>
+                                    <a href="#">乳液</a>
+                                </li>
+                                <li>
+                                    <a href="#">精华液</a>
+                                </li>
+                                <li>
+                                    <a href="#">面霜</a>
+                                </li>
+                                <li>
+                                    <a href="#">眼霜</a>
+                                </li>
+                                <li>
+                                    <a href="#">喷雾</a>
+                                </li>
+                                <li>
+                                    <a href="#">唇部护理</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </li>
+                    <li class="li2">
+                        <a href="#">面膜
+                            <span></span>
+                        </a>
+                        <div class="proBot">
+                            <ul>
+                                <li>
+                                    <a href="#">查看全部</a>
+                                </li>
+                                <li>
+                                    <a href="#">水洗面膜</a>
+                                </li>
+                                <li>
+                                    <a href="#">面膜贴</a>
+                                </li>
+                                <li>
+                                    <a href="#">鼻贴</a>
+                                </li>
+                                <li>
+                                    <a href="#">睡眠面膜</a>
+                                </li>
+                                <li>
+                                    <a href="#">面膜优惠套装</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </li>
+                    <li class="li3">
+                        <a href="#">洁面与卸妆
+                            <span></span>
+                        </a>
+                        <div class="proBot">
+                            <ul>
+                                <li>
+                                    <a href="#">查看全部</a>
+                                </li>
+                                <li>
+                                    <a href="#">洁面</a>
+                                </li>
+                                <li>
+                                    <a href="#">卸妆</a>
+                                </li>
+                                <li>
+                                    <a href="#">角质清洁</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </li>
+                    <li class="li4">
+                        <a href="#">防晒
+                            <span></span>
+                        </a>
+                        <div class="proBot">
+                            <ul>
+                                <li>
+                                    <a href="#">查看全部</a>
+                                </li>
+                                <li>
+                                    <a href="#">防晒霜</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </li>
+                    <li class="li5">
+                        <a href="#">面部底妆
+                            <span></span>
+                        </a>
+                        <div class="proBot">
+                            <ul>
+                                <li>
+                                    <a href="#">查看全部</a>
+                                </li>
+                                <li>
+                                    <a href="#">气垫</a>
+                                </li>
+                                <li>
+                                    <a href="#">修颜霜</a>
+                                </li>
+                                <li>
+                                    <a href="#">隔离修饰乳</a>
+                                </li>
+                                <li>
+                                    <a href="#">遮瑕</a>
+                                </li>
+                                <li>
+                                    <a href="#">妆前乳</a>
+                                </li>
+                                <li>
+                                    <a href="#">粉底</a>
+                                </li>
+                                <li>
+                                    <a href="#">散粉&粉饼</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </li>
+                    <li class="li6">
+                        <a href="#">彩妆
+                            <span></span>
+                        </a>
+                        <div class="proBot">
+                            <ul>
+                                <li>
+                                    <a href="#">查看全部</a>
+                                </li>
+                                <li>
+                                    <a href="#">睫毛膏</a>
+                                </li>
+                                <li>
+                                    <a href="#">眼影</a>
+                                </li>
+                                <li>
+                                    <a href="#">眼线</a>
+                                </li>
+                                <li>
+                                    <a href="#">眉笔</a>
+                                </li>
+                                <li>
+                                    <a href="#">唇膏唇彩</a>
+                                </li>
+                                <li>
+                                    <a href="#">高光</a>
+                                </li>
+                                <li>
+                                    <a href="#">腮红</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </li>
+                    <li class="li7">
+                        <a href="#">指甲油
+                            <span></span>
+                        </a>
+                        <div class="proBot">
+                            <ul>
+                                <li>
+                                    <a href="#">查看全部</a>
+                                </li>
+                                <li>
+                                    <a href="#">生机指甲油</a>
+                                </li>
+                                <li>
+                                    <a href="#">指甲护理</a>
+                                </li>
+                                <li>
+                                    <a href="#">马卡龙系列</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </li>
+                    <li class="li8">
+                        <a href="#">身体护理
+                            <span></span>
+                        </a>
+                        <div class="proBot">
+                            <ul>
+                                <li>
+                                    <a href="#">查看全部</a>
+                                </li>
+                                <li>
+                                    <a href="#">沐浴露</a>
+                                </li>
+                                <li>
+                                    <a href="#">身体保湿</a>
+                                </li>
+                                <li>
+                                    <a href="#">身体磨砂</a>
+                                </li>
+                                <li>
+                                    <a href="#">局部护理</a>
+                                </li>
+                                <li>
+                                    <a href="#">身体喷雾</a>
+                                </li>
+                                <li>
+                                    <a href="#">护发</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </li>
+                    <li class="li9">
+                        <a href="#">男士系列
+                            <span></span>
+                        </a>
+                        <div class="proBot">
+                            <ul>
+                                <li>
+                                    <a href="#">查看全部</a>
+                                </li>
+                                <li>
+                                    <a href="#">护肤水</a>
+                                </li>
+                                <li>
+                                    <a href="#">乳液</a>
+                                </li>
+                                <li>
+                                    <a href="#">洁面</a>
+                                </li>
+                                <li>
+                                    <a href="#">面霜</a>
+                                </li>
+                                <li>
+                                    <a href="#">男士礼盒</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </li>
+                    <li class="li10">
+                        <a href="#">优惠套装
+                            <span></span>
+                        </a>
+                        <div class="proBot">
+                            <ul>
+                                <li>
+                                    <a href="#">查看全部</a>
+                                </li>
+                                <li>
+                                    <a href="#">全部优惠套装</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </li>
+                    <li class="li11">
+                        <a href="#">美容工具
+                            <span></span>
+                        </a>
+                        <div class="proBot">
+                            <ul>
+                                <li>
+                                    <a href="#">查看全部</a>
+                                </li>
+                                <li>
+                                    <a href="#">护肤工具</a>
+                                </li>
+                                <li>
+                                    <a href="#">美体工具</a>
+                                </li>
+                                <li>
+                                    <a href="#">美甲工具</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+            <!--热门产品-->
+            <div class="hotPro">
+                <div class="proLeft">
+                    <h3>
+                        <img src="./image/nowhot_title.gif" alt="">
+                    </h3>
+                    <div class="hotList">
+                        <button type="button" class="prev"></button>
+                        <button type="button" class="next"></button>
+                        <div class="proList">
+                            <ul style="left: 0px">
+                                <!--<li>-->
+                                <!--<a href="#">-->
+                                <!--<span class="proImg no1"></span>-->
+                                <!--<span>-->
+                                <!--<img src="./image/1000008920_m.png" alt="">-->
+                                <!--</span>-->
+                                <!--<span class="pName">绿茶精萃平衡保湿特别套装 </span>-->
+                                <!--<span class="price">￥230.0</span>-->
+                                <!--</a>-->
+                                <!--</li>-->
+                                <!--<li>-->
+                                <!--<a href="#">-->
+                                <!--<span class="proImg no2"></span>-->
+                                <!--<span>-->
+                                <!--<img src="./image/1000008920_m.png" alt="">-->
+                                <!--</span>-->
+                                <!--<span class="pName">绿茶精萃平衡保湿特别套装 </span>-->
+                                <!--<span class="price">￥230.0</span>-->
+                                <!--</a>-->
+                                <!--</li>-->
+                                <!--<li>-->
+                                <!--<a href="#">-->
+                                <!--<span class="proImg no3"></span>-->
+                                <!--<span>-->
+                                <!--<img src="./image/1000008920_m.png" alt="">-->
+                                <!--</span>-->
+                                <!--<span class="pName">绿茶精萃平衡保湿特别套装 </span>-->
+                                <!--<span class="price">￥230.0</span>-->
+                                <!--</a>-->
+                                <!--</li>-->
+                                <!--<li>-->
+                                <!--<a href="#">-->
+                                <!--<span class="proImg no4"></span>-->
+                                <!--<span>-->
+                                <!--<img src="./image/1000008920_m.png" alt="">-->
+                                <!--</span>-->
+                                <!--<span class="pName">绿茶精萃平衡保湿特别套装 </span>-->
+                                <!--<span class="price">￥230.0</span>-->
+                                <!--</a>-->
+                                <!--</li>-->
+                                <!--<li>-->
+                                <!--<a href="#">-->
+                                <!--<span class="proImg no5"></span>-->
+                                <!--<span>-->
+                                <!--<img src="./image/1000008920_m.png" alt="">-->
+                                <!--</span>-->
+                                <!--<span class="pName">绿茶精萃平衡保湿特别套装 </span>-->
+                                <!--<span class="price">￥230.0</span>-->
+                                <!--</a>-->
+                                <!--</li>-->
+                                <!--<li>-->
+                                <!--<a href="#">-->
+                                <!--<span class="proImg no6"></span>-->
+                                <!--<span>-->
+                                <!--<img src="./image/1000008920_m.png" alt="">-->
+                                <!--</span>-->
+                                <!--<span class="pName">绿茶精萃平衡保湿特别套装 </span>-->
+                                <!--<span class="price">￥230.0</span>-->
+                                <!--</a>-->
+                                <!--</li>-->
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="proRig">
+                    <ul class="proMenu">
+                        <li>
+                            <a href="#">
+                                <img src="./image/otherMenu1.gif" alt="">
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <img src="./image/otherMenu2.gif" alt="">
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <img src="./image/otherMenu3.gif" alt="">
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <img src="./image/otherMenu4.gif" alt="">
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <!--产品搜索-->
+            <div class="proSearch">
+                <div class="proEffect">
+                    <h4>功效</h4>
+                    <div class="listR">
+                        <ul>
+                            <li>
+                                <input type="checkbox">
+                                <span>补水保湿</span>
+                            </li>
+                            <li>
+                                <input type="checkbox">
+                                <span>毛孔管理</span>
+                            </li>
+                            <li>
+                                <input type="checkbox">
+                                <span>舒缓修护</span>
+                            </li>
+                            <li>
+                                <input type="checkbox">
+                                <span>美白提亮</span>
+                            </li>
+                            <li>
+                                <input type="checkbox">
+                                <span>光泽滋润</span>
+                            </li>
+                            <li>
+                                <input type="checkbox">
+                                <span>弹性紧致</span>
+                            </li>
+                            <li>
+                                <input type="checkbox">
+                                <span>改善肤质</span>
+                            </li>
+                            <li>
+                                <input type="checkbox">
+                                <span>美白遮瑕</span>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="proEffect" style="height: 162px">
+                    <h4>原料</h4>
+                    <div class="listR">
+                        <ul>
+                            <li>
+                                <input type="checkbox">
+                                <span>海盐</span>
+                            </li>
+                            <li>
+                                <input type="checkbox">
+                                <span>芦荟</span>
+                            </li>
+                            <li>
+                                <input type="checkbox">
+                                <span>绿茶精萃</span>
+                            </li>
+                            <li>
+                                <input type="checkbox">
+                                <span>橄榄</span>
+                            </li>
+                            <li>
+                                <input type="checkbox">
+                                <span>火山岩泥</span>
+                            </li>
+                            <li>
+                                <input type="checkbox">
+                                <span>生机展颜</span>
+                            </li>
+                            <li>
+                                <input type="checkbox">
+                                <span>发酵豆</span>
+                            </li>
+                            <li>
+                                <input type="checkbox">
+                                <span>生机蜜柑维C</span>
+                            </li>
+                            <li>
+                                <input type="checkbox">
+                                <span>济州石榴</span>
+                            </li>
+                            <li>
+                                <input type="checkbox">
+                                <span>油菜花蜜</span>
+                            </li>
+                            <li>
+                                <input type="checkbox">
+                                <span>香榧</span>
+                            </li>
+                            <li>
+                                <input type="checkbox">
+                                <span>迷你敏</span>
+                            </li>
+                            <li>
+                                <input type="checkbox">
+                                <span>青麦</span>
+                            </li>
+                            <li>
+                                <input type="checkbox">
+                                <span>九重臻致</span>
+                            </li>
+                            <li>
+                                <input type="checkbox">
+                                <span>浆果美白</span>
+                            </li>
+                            <li>
+                                <input type="checkbox">
+                                <span>红酒</span>
+                            </li>
+                            <li>
+                                <input type="checkbox">
+                                <span>济州岛青柿</span>
+                            </li>
+                            <li>
+                                <input type="checkbox">
+                                <span>都市净化</span>
+                            </li>
+                            <li>
+                                <input type="checkbox">
+                                <span>青苹果</span>
+                            </li>
+                            <li>
+                                <input type="checkbox">
+                                <span>柑橘花香氛</span>
+                            </li>
+                            <li>
+                                <input type="checkbox">
+                                <span>山茶花</span>
+                            </li>
+                            <li>
+                                <input type="checkbox">
+                                <span>寒兰/span>
+                            </li>
+                            <li>
+                                <input type="checkbox">
+                                <span>栀子花</span>
+                            </li>
+                            <li>
+                                <input type="checkbox">
+                                <span>济州石榴</span>
+                            </li>
+                            <li>
+                                <input type="checkbox">
+                                <span>雪耳</span>
+                            </li>
+                            <li>
+                                <input type="checkbox">
+                                <span>济州岛温泉水</span>
+                            </li>
+                            <li>
+                                <input type="checkbox">
+                                <span>白牡丹</span>
+                            </li>
+                            <li>
+                                <input type="checkbox">
+                                <span>姜油</span>
+                            </li>
+                            <li>
+                                <input type="checkbox">
+                                <span>菖蒲</span>
+                            </li>
+                            <li>
+                                <input type="checkbox">
+                                <span>熔岩海水</span>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="proBtn">
+                    <a href="#">
+                        <img src="./image/btn_filterSearch.gif" alt="">
+                    </a>
+                    <a href="#">
+                        <img src="./image/btn_filterReset.gif" alt="">
+                    </a>
+                </div>
+            </div>
+            <div class="searchPro">
+                <label for="">在结果内查找</label>
+                <input type="text">
+                <a href="#">
+                    <img src="./image/btn_search.gif" alt="">
+                </a>
+            </div>
+            <!--排序商品-->
+            <div class="tabType">
+                <ul>
+                    <li>
+                        <a href="#" style="color: #fff;background: #808080;">按最新顺序排列</a>
+                    </li>
+                    <li>
+                        <a href="#">按人气排列</a>
+                    </li>
+                    <li>
+                        <a href="#">按用户评价次数排列</a>
+                    </li>
+                    <li>
+                        <a href="#">按价格从高到低</a>
+                    </li>
+                    <li>
+                        <a href="#">按价格从低到高</a>
+                    </li>
+                    <li>
+                        <a href="#">按优惠排列</a>
+                    </li>
+                </ul>
+            </div>
+            <form action="" class="listForm">
+                <!--商品显示-->
+                <div class="productListSub">
+                    <ul>
+                        <!--<li>-->
+                        <!--<div class="thumb">-->
+                        <!--<a href="#">-->
+                        <!--<img src="./image/1000010362_m.png" alt="">-->
+                        <!--</a>-->
+                        <!--<ul class="fun">-->
+                        <!--<li class="fun1">-->
+                        <!--<a href="#">预览</a>-->
+                        <!--</li>-->
+                        <!--<li class="fun2">-->
+                        <!--<a href="#">收藏夹</a>-->
+                        <!--</li>-->
+                        <!--<li class="fun3">-->
+                        <!--<a href="#">购物车</a>-->
+                        <!--</li>-->
+                        <!--</ul>-->
+                        <!--</div>-->
+                        <!--<p class="proName">-->
+                        <!--<a href="#">济州菖蒲都市净化舒缓水 200ml </a>-->
+                        <!--</p>-->
+                        <!--<p class="proPrice">￥160.0</p>-->
+                        <!--</li>-->
+                        <!--<li>-->
+                        <!--<div class="thumb">-->
+                        <!--<a href="#">-->
+                        <!--<img src="./image/1000010362_m.png" alt="">-->
+                        <!--</a>-->
+                        <!--<ul class="fun">-->
+                        <!--<li class="fun1">-->
+                        <!--<a href="#">预览</a>-->
+                        <!--</li>-->
+                        <!--<li class="fun2">-->
+                        <!--<a href="#">收藏夹</a>-->
+                        <!--</li>-->
+                        <!--<li class="fun3">-->
+                        <!--<a href="#">购物车</a>-->
+                        <!--</li>-->
+                        <!--</ul>-->
+                        <!--</div>-->
+                        <!--<p class="proName">-->
+                        <!--<a href="#">济州菖蒲都市净化舒缓水 200ml </a>-->
+                        <!--</p>-->
+                        <!--<p class="proPrice">￥160.0</p>-->
+                        <!--</li>-->
+                        <!--<li>-->
+                        <!--<div class="thumb">-->
+                        <!--<a href="#">-->
+                        <!--<img src="./image/1000010362_m.png" alt="">-->
+                        <!--</a>-->
+                        <!--<ul class="fun">-->
+                        <!--<li class="fun1">-->
+                        <!--<a href="#">预览</a>-->
+                        <!--</li>-->
+                        <!--<li class="fun2">-->
+                        <!--<a href="#">收藏夹</a>-->
+                        <!--</li>-->
+                        <!--<li class="fun3">-->
+                        <!--<a href="#">购物车</a>-->
+                        <!--</li>-->
+                        <!--</ul>-->
+                        <!--</div>-->
+                        <!--<p class="proName">-->
+                        <!--<a href="#">济州菖蒲都市净化舒缓水 200ml </a>-->
+                        <!--</p>-->
+                        <!--<p class="proPrice">￥160.0</p>-->
+                        <!--</li>-->
+                        <!--<li>-->
+                        <!--<div class="thumb">-->
+                        <!--<a href="#">-->
+                        <!--<img src="./image/1000010362_m.png" alt="">-->
+                        <!--</a>-->
+                        <!--<ul class="fun">-->
+                        <!--<li class="fun1">-->
+                        <!--<a href="#">预览</a>-->
+                        <!--</li>-->
+                        <!--<li class="fun2">-->
+                        <!--<a href="#">收藏夹</a>-->
+                        <!--</li>-->
+                        <!--<li class="fun3">-->
+                        <!--<a href="#">购物车</a>-->
+                        <!--</li>-->
+                        <!--</ul>-->
+                        <!--</div>-->
+                        <!--<p class="proName">-->
+                        <!--<a href="#">济州菖蒲都市净化舒缓水 200ml </a>-->
+                        <!--</p>-->
+                        <!--<p class="proPrice">￥160.0</p>-->
+                        <!--</li>-->
+                        <!--<li>-->
+                        <!--<div class="thumb">-->
+                        <!--<a href="#">-->
+                        <!--<img src="./image/1000010362_m.png" alt="">-->
+                        <!--</a>-->
+                        <!--<ul class="fun">-->
+                        <!--<li class="fun1">-->
+                        <!--<a href="#">预览</a>-->
+                        <!--</li>-->
+                        <!--<li class="fun2">-->
+                        <!--<a href="#">收藏夹</a>-->
+                        <!--</li>-->
+                        <!--<li class="fun3">-->
+                        <!--<a href="#">购物车</a>-->
+                        <!--</li>-->
+                        <!--</ul>-->
+                        <!--</div>-->
+                        <!--<p class="proName">-->
+                        <!--<a href="#">济州菖蒲都市净化舒缓水 200ml </a>-->
+                        <!--</p>-->
+                        <!--<p class="proPrice">￥160.0</p>-->
+                        <!--</li>-->
+                        <!--<li>-->
+                        <!--<div class="thumb">-->
+                        <!--<a href="#">-->
+                        <!--<img src="./image/1000010362_m.png" alt="">-->
+                        <!--</a>-->
+                        <!--<ul class="fun">-->
+                        <!--<li class="fun1">-->
+                        <!--<a href="#">预览</a>-->
+                        <!--</li>-->
+                        <!--<li class="fun2">-->
+                        <!--<a href="#">收藏夹</a>-->
+                        <!--</li>-->
+                        <!--<li class="fun3">-->
+                        <!--<a href="#">购物车</a>-->
+                        <!--</li>-->
+                        <!--</ul>-->
+                        <!--</div>-->
+                        <!--<p class="proName">-->
+                        <!--<a href="#">济州菖蒲都市净化舒缓水 200ml </a>-->
+                        <!--</p>-->
+                        <!--<p class="proPrice">￥160.0</p>-->
+                        <!--</li>-->
+                        <!--<li>-->
+                        <!--<div class="thumb">-->
+                        <!--<a href="#">-->
+                        <!--<img src="./image/1000010362_m.png" alt="">-->
+                        <!--</a>-->
+                        <!--<ul class="fun">-->
+                        <!--<li class="fun1">-->
+                        <!--<a href="#">预览</a>-->
+                        <!--</li>-->
+                        <!--<li class="fun2">-->
+                        <!--<a href="#">收藏夹</a>-->
+                        <!--</li>-->
+                        <!--<li class="fun3">-->
+                        <!--<a href="#">购物车</a>-->
+                        <!--</li>-->
+                        <!--</ul>-->
+                        <!--</div>-->
+                        <!--<p class="proName">-->
+                        <!--<a href="#">济州菖蒲都市净化舒缓水 200ml </a>-->
+                        <!--</p>-->
+                        <!--<p class="proPrice">￥160.0</p>-->
+                        <!--</li>-->
+                        <!--<li>-->
+                        <!--<div class="thumb">-->
+                        <!--<a href="#">-->
+                        <!--<img src="./image/1000010362_m.png" alt="">-->
+                        <!--</a>-->
+                        <!--<ul class="fun">-->
+                        <!--<li class="fun1">-->
+                        <!--<a href="#">预览</a>-->
+                        <!--</li>-->
+                        <!--<li class="fun2">-->
+                        <!--<a href="#">收藏夹</a>-->
+                        <!--</li>-->
+                        <!--<li class="fun3">-->
+                        <!--<a href="#">购物车</a>-->
+                        <!--</li>-->
+                        <!--</ul>-->
+                        <!--</div>-->
+                        <!--<p class="proName">-->
+                        <!--<a href="#">济州菖蒲都市净化舒缓水 200ml </a>-->
+                        <!--</p>-->
+                        <!--<p class="proPrice">￥160.0</p>-->
+                        <!--</li>-->
+                        <!--<li>-->
+                        <!--<div class="thumb">-->
+                        <!--<a href="#">-->
+                        <!--<img src="./image/1000010362_m.png" alt="">-->
+                        <!--</a>-->
+                        <!--<ul class="fun">-->
+                        <!--<li class="fun1">-->
+                        <!--<a href="#">预览</a>-->
+                        <!--</li>-->
+                        <!--<li class="fun2">-->
+                        <!--<a href="#">收藏夹</a>-->
+                        <!--</li>-->
+                        <!--<li class="fun3">-->
+                        <!--<a href="#">购物车</a>-->
+                        <!--</li>-->
+                        <!--</ul>-->
+                        <!--</div>-->
+                        <!--<p class="proName">-->
+                        <!--<a href="#">济州菖蒲都市净化舒缓水 200ml </a>-->
+                        <!--</p>-->
+                        <!--<p class="proPrice">￥160.0</p>-->
+                        <!--</li>-->
+                        <!--<li>-->
+                        <!--<div class="thumb">-->
+                        <!--<a href="#">-->
+                        <!--<img src="./image/1000010362_m.png" alt="">-->
+                        <!--</a>-->
+                        <!--<ul class="fun">-->
+                        <!--<li class="fun1">-->
+                        <!--<a href="#">预览</a>-->
+                        <!--</li>-->
+                        <!--<li class="fun2">-->
+                        <!--<a href="#">收藏夹</a>-->
+                        <!--</li>-->
+                        <!--<li class="fun3">-->
+                        <!--<a href="#">购物车</a>-->
+                        <!--</li>-->
+                        <!--</ul>-->
+                        <!--</div>-->
+                        <!--<p class="proName">-->
+                        <!--<a href="#">济州菖蒲都市净化舒缓水 200ml </a>-->
+                        <!--</p>-->
+                        <!--<p class="proPrice">￥160.0</p>-->
+                        <!--</li>-->
+                        <!--<li>-->
+                        <!--<div class="thumb">-->
+                        <!--<a href="#">-->
+                        <!--<img src="./image/1000010362_m.png" alt="">-->
+                        <!--</a>-->
+                        <!--<ul class="fun">-->
+                        <!--<li class="fun1">-->
+                        <!--<a href="#">预览</a>-->
+                        <!--</li>-->
+                        <!--<li class="fun2">-->
+                        <!--<a href="#">收藏夹</a>-->
+                        <!--</li>-->
+                        <!--<li class="fun3">-->
+                        <!--<a href="#">购物车</a>-->
+                        <!--</li>-->
+                        <!--</ul>-->
+                        <!--</div>-->
+                        <!--<p class="proName">-->
+                        <!--<a href="#">济州菖蒲都市净化舒缓水 200ml </a>-->
+                        <!--</p>-->
+                        <!--<p class="proPrice">￥160.0</p>-->
+                        <!--</li>-->
+                        <!--<li>-->
+                        <!--<div class="thumb">-->
+                        <!--<a href="#">-->
+                        <!--<img src="./image/1000010362_m.png" alt="">-->
+                        <!--</a>-->
+                        <!--<ul class="fun">-->
+                        <!--<li class="fun1">-->
+                        <!--<a href="#">预览</a>-->
+                        <!--</li>-->
+                        <!--<li class="fun2">-->
+                        <!--<a href="#">收藏夹</a>-->
+                        <!--</li>-->
+                        <!--<li class="fun3">-->
+                        <!--<a href="#">购物车</a>-->
+                        <!--</li>-->
+                        <!--</ul>-->
+                        <!--</div>-->
+                        <!--<p class="proName">-->
+                        <!--<a href="#">济州菖蒲都市净化舒缓水 200ml </a>-->
+                        <!--</p>-->
+                        <!--<p class="proPrice">￥160.0</p>-->
+                        <!--</li>-->
+                        <!--<li>-->
+                        <!--<div class="thumb">-->
+                        <!--<a href="#">-->
+                        <!--<img src="./image/1000010362_m.png" alt="">-->
+                        <!--</a>-->
+                        <!--<ul class="fun">-->
+                        <!--<li class="fun1">-->
+                        <!--<a href="#">预览</a>-->
+                        <!--</li>-->
+                        <!--<li class="fun2">-->
+                        <!--<a href="#">收藏夹</a>-->
+                        <!--</li>-->
+                        <!--<li class="fun3">-->
+                        <!--<a href="#">购物车</a>-->
+                        <!--</li>-->
+                        <!--</ul>-->
+                        <!--</div>-->
+                        <!--<p class="proName">-->
+                        <!--<a href="#">济州菖蒲都市净化舒缓水 200ml </a>-->
+                        <!--</p>-->
+                        <!--<p class="proPrice">￥160.0</p>-->
+                        <!--</li>-->
+                        <!--<li>-->
+                        <!--<div class="thumb">-->
+                        <!--<a href="#">-->
+                        <!--<img src="./image/1000010362_m.png" alt="">-->
+                        <!--</a>-->
+                        <!--<ul class="fun">-->
+                        <!--<li class="fun1">-->
+                        <!--<a href="#">预览</a>-->
+                        <!--</li>-->
+                        <!--<li class="fun2">-->
+                        <!--<a href="#">收藏夹</a>-->
+                        <!--</li>-->
+                        <!--<li class="fun3">-->
+                        <!--<a href="#">购物车</a>-->
+                        <!--</li>-->
+                        <!--</ul>-->
+                        <!--</div>-->
+                        <!--<p class="proName">-->
+                        <!--<a href="#">济州菖蒲都市净化舒缓水 200ml </a>-->
+                        <!--</p>-->
+                        <!--<p class="proPrice">￥160.0</p>-->
+                        <!--</li>-->
+                        <!--<li>-->
+                        <!--<div class="thumb">-->
+                        <!--<a href="#">-->
+                        <!--<img src="./image/1000010362_m.png" alt="">-->
+                        <!--</a>-->
+                        <!--<ul class="fun">-->
+                        <!--<li class="fun1">-->
+                        <!--<a href="#">预览</a>-->
+                        <!--</li>-->
+                        <!--<li class="fun2">-->
+                        <!--<a href="#">收藏夹</a>-->
+                        <!--</li>-->
+                        <!--<li class="fun3">-->
+                        <!--<a href="#">购物车</a>-->
+                        <!--</li>-->
+                        <!--</ul>-->
+                        <!--</div>-->
+                        <!--<p class="proName">-->
+                        <!--<a href="#">济州菖蒲都市净化舒缓水 200ml </a>-->
+                        <!--</p>-->
+                        <!--<p class="proPrice">￥160.0</p>-->
+                        <!--</li>-->
+                    </ul>
+                </div>
+                <div class="page">
+                    <!-- <a href="#">
+                        <img src="./image/paging_first.gif" alt="" />
+                    </a>
+                    <a href="#" class="curr">1</a>
+                    <a href="#">2</a>
+                    <a href="#">3</a>
+                    <a href="#">4</a>
+                    <a href="#">
+                        <img src="./image/paging_last.gif" alt="" />
+                    </a> -->
+                </div>
+            </form>
+        </div>
+    </div>
+    <!--右侧边栏-->
+    <div class="rightSide  notchangerig">
+        <a href="#">
+            <img src="./image/ico_renewal01.jpg" alt="" />
+        </a>
+        <ul class="type1">
+            <li class="links">
+                <a href="#">
+                    <img src="./image/ico_renewal09_170717.jpg" alt="" />
+                </a>
+                <a href="none" class="shopNum">0</a>
+            </li>
+            <li class="links">
+                <a href="#">
+                    <img src="./image/ico_renewal02_170717.jpg" alt="" />
+                </a>
+            </li>
+            <li class="links">
+                <a href="#">
+                    <img src="./image/ico_renewal03_170717.jpg" alt="" />
+                </a>
+            </li>
+        </ul>
+        <div class="recent">
+            <a href="#">
+                <img src="./image/1000010822_s.png" alt="" />
+            </a>
+            <button type="button" class="last"></button>
+            <button type="button" class="next"></button>
+        </div>
+        <div>
+            <img src="./image/ico_renewal05.jpg" alt="" />
+        </div>
+        <ul>
+            <li>
+                <a href="#">
+                    <img src="./image/ico_renewal06.jpg" alt="" />
+                </a>
+            </li>
+            <li>
+                <a href="#">
+                    <img src="./image/ico_renewal07.jpg" alt="" />
+                </a>
+            </li>
+        </ul>
+        <a href="#" class="top">
+            <img src="./image/ico_renewal08.jpg" alt="" />
+        </a>
+    </div>
+    <!--左侧边栏-->
+    <div class="leftSide notchangeleft">
+        <img src="./image/qrcode_renewal1.jpg" alt="" style="margin-bottom: 10px" />
+        <img src="./image/qrcode_renewal2.jpg" alt="" />
+    </div>
+    </div>
+    <!--footer-->
+    <div id="footer">
+        <div class="on">
+            <div class="menuCate">
+                <!--第一行-->
+                <div class="menuList">
+                    <a href="#">
+                        <img src="./image/txt_footerCategory1.png" alt="" />
+                    </a>
+                    <ul class="subCate">
+                        <li>
+                            <a href="Innisfree-product.html">基础护理</a>
+                        </li>
+                        <li>
+                            <a href="Innisfree-product.html">面膜</a>
+                        </li>
+                        <li>
+                            <a href="Innisfree-product.html">洁面与卸妆</a>
+                        </li>
+                        <li>
+                            <a href="Innisfree-product.html">防晒</a>
+                        </li>
+                        <li>
+                            <a href="Innisfree-product.html">面部底妆</a>
+                        </li>
+                        <li>
+                            <a href="Innisfree-product.html">彩妆</a>
+                        </li>
+                        <li>
+                            <a href="Innisfree-product.html">指甲油</a>
+                        </li>
+                        <li>
+                            <a href="Innisfree-product.html">身体护理</a>
+                        </li>
+                        <li>
+                            <a href="Innisfree-product.html">男士系列</a>
+                        </li>
+                        <li>
+                            <a href="Innisfree-product.html">优惠套装</a>
+                        </li>
+                        <li>
+                            <a href="Innisfree-product.html">美容工具</a>
+                        </li>
+                        <li>
+                            <a href="Innisfree-product.html">新商品</a>
+                        </li>
+                        <li>
+                            <a href="Innisfree-product.html">Inni 产品地图</a>
+                        </li>
+                        <li>
+                            <a href="Innisfree-product.html">限时活动</a>
+                        </li>
+                        <li>
+                            <a href="Innisfree-product.html">小清新热荐</a>
+                        </li>
+                    </ul>
+                </div>
+                <!--第二行-->
+                <div class="menuList">
+                    <a href="#">
+                        <img src="./image/txt_footerCategory2.png" alt="" />
+                    </a>
+                    <ul class="subCate" style="padding-bottom: 30px;">
+                        <li>
+                            <a href="#">正在进行的活动</a>
+                        </li>
+                        <li>
+                            <a href="#">过去进行的活动</a>
+                        </li>
+                        <li>
+                            <a href="#">美丽体验</a>
+                        </li>
+                        <li>
+                            <a href="#">活动中奖者名单</a>
+                        </li>
+                    </ul>
+                    <a href="#">
+                        <img src="./image/txt_footerCategory3.png" alt="" />
+                    </a>
+                    <ul class="subCate">
+                        <li>
+                            <a href="Innisfree-login.html">登录</a>
+                        </li>
+                        <li>
+                            <a href="#">加入会员</a>
+                        </li>
+                        <li>
+                            <a href="#">购物车</a>
+                        </li>
+                        <li>
+                            <a href="#">我的主页</a>
+                        </li>
+                        <li>
+                            <a href="#">客服中心</a>
+                        </li>
+                        <li>
+                            <a href="#">专卖店导航</a>
+                        </li>
+                    </ul>
+                </div>
+                <!--第三行-->
+                <div class="menuList">
+                    <a href="#">
+                        <img src="./image/txt_footerCategory4.png" alt="" />
+                    </a>
+                    <ul class="subCate" style="padding-bottom: 30px;">
+                        <li>
+                            <a href="#">分享小清新</a>
+                        </li>
+                        <li>
+                            <a href="#">绿茶农场游戏</a>
+                        </li>
+                        <li>
+                            <a href="#">inni社交圈</a>
+                        </li>
+                        <li>
+                            <a href="#">inni粉积分榜</a>
+                        </li>
+                    </ul>
+                    <a href="#">
+                        <img src="./image/txt_footerCategory5.png" alt="" />
+                    </a>
+                    <ul class="subCate">
+                        <li>
+                            <a href="#">公告板</a>
+                        </li>
+                        <li>
+                            <a href="#">使用说明</a>
+                        </li>
+                        <li>
+                            <a href="#">会员服务</a>
+                        </li>
+                        <li>
+                            <a href="#">1:1在线咨询</a>
+                        </li>
+                        <li>
+                            <a href="#">Q&A 留言板</a>
+                        </li>
+                        <li>
+                            <a href="#">FAQ</a>
+                        </li>
+                    </ul>
+                </div>
+                <!--第四行-->
+                <div class="menuList">
+                    <a href="#">
+                        <img src="./image/txt_footerCategory6.png" alt="" />
+                    </a>
+                    <ul class="subCate" style="padding-bottom: 30px;">
+                        <li>
+                            <a href="#">品牌介绍</a>
+                        </li>
+                        <li>
+                            <a href="#">社会贡献</a>
+                        </li>
+                        <li>
+                            <a href="#">广告视频</a>
+                        </li>
+                    </ul>
+                    <a href="#">
+                        <img src="./image/txt_footerCategory7.png" alt="" />
+                    </a>
+                    <ul class="subCate">
+                        <li>
+                            <a href="#">济州之家介绍</a>
+                        </li>
+                        <li>
+                            <a href="#">济州治愈音乐</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <!--咨询-->
+            <div class="info">
+                <img src="./image/txt_footerCategory8.png" alt="" />
+                <dl>
+                    <dt>小清新（售前）周一到周日</dt>
+                    <dd>9:00~24:00</dd>
+                    <dt style="padding-top: 10px;">官网客服热线:</dt>
+                    <dd>021-61255625 (9:00~24:00)</dd>
+                    <dt>产品咨询热线:</dt>
+                    <dd>400-920-9238</dd>
+                    <dd>800-820-3596</dd>
+                    <dd>周一至周日 09:00-21:00</dd>
+                    <dd>(不含国定假日)</dd>
+                </dl>
+            </div>
+            <div class="vigilant">
+                <span>★</span>
+                近期有不法分子冒用品牌官网客服名义电话联系消费者进行诈骗，
+                <br/> innisfree官网提醒广大小清新们，关注我们的官方网站上面的电话，
+                <br/> 除此之外的所有电话联系均非品牌客服行为，请小清新们注意辨别，
+                <br/> 提高警惕!
+            </div>
+            <!--logo-->
+            <div class="logoLeft"></div>
+            <div class="logoRight">
+                <a href="#">
+                    <img src="./image/ico_footerMark11.png" alt="" />
+                </a>
+                <a href="#">
+                    <img src="./image/ico_footerMark2.png" alt="" />
+                </a>
+                <a href="#">
+                    <img src="./image/ico_footerMark3.png" alt="" />
+                </a>
+                <a href="#">
+                    <img src="./image/ico_footerMark1.png" alt="" />
+                    <span style="vertical-align: bottom;font-weight: bold;">沪公网安备 31010602000985号</span>
+                </a>
+            </div>
+        </div>
+    </div>
+    </div>
+    <!--点击预览商品显示-->
+    <div id="proView">
+
+    </div>
+    <script src="js/jquery-3.2.1.min.js"></script>
+    <script src="js/inni_product.js"></script>
+    <script src="js/cookie.js"></script>
+</body>
+
+</html>

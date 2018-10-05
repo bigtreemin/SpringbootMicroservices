@@ -1,0 +1,1033 @@
+#header{
+    position:relative;
+    z-index:100;
+}
+#header .toHeader{
+    position:relative;
+    height:164px;
+    width:980px;
+    margin:0 auto;
+}
+/********************************* logo ****************************/
+.toHeader>.logo{
+    position:absolute;
+    left:40px;
+    top:45px;
+}
+/******************************  �����˵�   *************************/
+.toHeader>.menu>.list li{
+    float:left;
+}
+.toHeader>.menu>.list{
+    float:right;
+    margin-top:-22px;
+}
+#header .menu{
+    position:relative;
+}
+.toHeader>.menu>.list img{
+    padding-left:10px;
+}
+/* ?????? */
+#header .toHeader>.quickMenu{
+    padding:4px 0 0 190px;
+}
+#header .toHeader>.quickMenu li{
+    float:left;
+}
+#header .toHeader>.quickMenu img{
+    padding-left:20px;
+}
+/*************************** ������ ******************************/
+#header .toHeader>.search{
+    padding:16px 0 0 181px;
+    height:37px;
+    width:420px;
+    position:relative;
+}
+.toHeader>.search>.searchWord{
+    background:url(../image/BG_search_170717.png) no-repeat;
+    padding-left: 40px;
+    margin-top:5px;
+    width:280px;
+    height: 37px;
+    display: block;
+}
+.search>.searchWord>.product{
+    width:260px;
+    height:26px;
+    border:none;
+    line-height:28px;
+    margin-top:4px;
+}
+.toHeader>.search>.imputImage{
+    position:absolute;
+    right:0px;
+    top:22px;
+}
+/*****************************  �Ƽ���Ʒ *******************************/
+.toHeader>.menuHigh{
+    padding:10px 0 0 172px;
+    font-size:11px;
+    overflow:hidden;
+}
+#header .toHeader>.menuHigh li{
+    float:left;
+    padding:0 20px 0 20px;
+    background:url(../image/bar_1x9_666666.gif) no-repeat left center;
+}
+/************************* ���õ�һ��li�ޱ��� *************************/
+#header .toHeader>.menuHigh  li:first-child{
+    background:none;
+}
+/***************************** ̽��ָ�� *******************************/
+#header .toHeader>.headerAd{
+    position:absolute;
+    top:45px;
+    right:0;
+}
+/*************************** �����¼���� ****************************/
+#header .toHeader>.shoppingLoginNav{
+    position:absolute;
+    left:0;
+    top:124px;
+    width:100%;
+    zoom:1;
+}
+/************************** ���ع���ͨ������ ****************************/
+.shoppingLoginNav>.quickShopping>.quickShoppingHid{
+    position:absolute;
+    left:0;
+    top:40px;
+    width:980px;
+    height:240px;
+    padding:12px 0 30px 0;
+    background:url(../image/BG_quickShopping.gif) no-repeat;
+    z-index:1;
+    display:none;
+}
+.quickShopping>.quickShoppingHid>.top{
+    padding-left:30px;
+}
+.shoppingLoginNav .quickShoppingHid .top h2{
+    float:left;
+    margin-right:12px;
+}
+.shoppingLoginNav .quickShoppingHid  .line{
+    float:left;
+    margin-top:6px;
+}
+.shoppingLoginNav .quickShoppingHid .top .desc{
+    float:left;
+    margin-left:10px;
+}
+.shoppingLoginNav .quickShoppingHid .searchOption{
+    margin-top:25px;
+    padding:0 115px 0 30px;
+}
+.searchBox .option1{
+    margin:40px 0 30px 0;
+}
+.searchBox .option1 dt{
+    float:left;
+    width:115px;
+    font-weight:bold;
+    color:#277332;
+}
+.searchOption .searchBox .option1 dd, .searchOption .searchBox .option2 dd{
+    float:left;
+    width:690px;
+    padding-left:29px;
+}
+.searchOption .searchBox .option1  .arr{
+    display:inline-block;
+    width:7px;
+    height:12px;
+    margin:0 20px;
+    background:url(../image/arr_7x12_ababab.png) no-repeat;
+}
+.searchOption .searchBox .option2,.searchOption .searchBox .option3{
+    padding-top:45px;
+}
+.searchOption .searchBox .option2 dt, .searchOption .searchBox .option3 dt{
+    float:left;
+    width:115px;
+    font-weight:bold;
+    color:#277332;
+}
+.searchBox .option3  ul li{
+    float:left;
+    width:119px;
+    line-height:42px;
+    margin:-12px 0 0 24px ;
+}
+.searchBox .option3  .rightLi{
+    margin:3px 0 0 140px;
+}
+.searchBox .option3 input{
+    vertical-align:text-bottom;
+}
+.quickShoppingHid  .shopSearch{
+    text-align:center;
+    padding-top:85px;
+}
+/******************************** �б�  ***************************************/
+.shoppingLoginNav .gnList,.shoppingLoginNav .gnList li{
+    float:left;
+    position:relative;
+}
+.shoppingLoginNav .gnList li a{
+    position:relative;
+    height:40px;
+    text-indent:-9999px;
+    width:116px;
+    display: inline-block;
+}
+.shoppingLoginNav .gnList .list1>a{
+    background:url(../image/gnb_menu1.png)no-repeat 0 0;
+}
+.shoppingLoginNav .gnList .list1>a:hover{
+    background:url(../image/gnb_menu1.png)no-repeat 0 -40px;
+    z-index: 1;
+}
+.shoppingLoginNav .gnList .list2>a{
+    background:url(../image/gnb_menu2.png)no-repeat 0 0;
+    width:132px;
+}
+.shoppingLoginNav .gnList .list2>a:hover{
+    background:url(../image/gnb_menu2.png)no-repeat 0 -40px;
+    z-index: 1;
+}
+.shoppingLoginNav .gnList .list3>a{
+    background:url(../image/gnb_menu3.png)no-repeat 0 0;
+    width:83px;
+}
+.shoppingLoginNav .gnList .list3>a:hover{
+    background:url(../image/gnb_menu3.png)no-repeat 0 -40px;
+    z-index: 1;
+}
+.shoppingLoginNav .gnList .list4>a{
+    background:url(../image/gnb_menu4.png)no-repeat 0 0;
+    width:83px;
+}
+.shoppingLoginNav .gnList .list4>a:hover{
+    background:url(../image/gnb_menu4.png)no-repeat 0 -40px;
+    z-index: 1;
+}
+.shoppingLoginNav .gnList .list5>a{
+    background:url(../image/gnb_menu5.png)no-repeat 0 0;
+    width:85px;
+}
+.shoppingLoginNav .gnList .list5>a:hover{
+    background:url(../image/gnb_menu5.png)no-repeat 0 -40px;
+    z-index: 1;
+}
+.shoppingLoginNav .gnList .list .subMenu{
+    position: absolute;
+    left:0;
+    top:39px;
+    display: none;
+    padding-top:18px;
+    border:1px solid #000;
+}
+.shoppingLoginNav .gnList .list .subMenu3{
+    left:-118px;
+}
+.gnList .list .subMenu .subList{
+    padding:0 11px;
+}
+.gnList .list .subMenu .subList li a,
+.gnList .list .subMenu3 .subGroup1 dd a,
+.gnList .list .subMenu3 .subGroup2 dd a{
+    display:block;
+    width:136px;
+    padding:2px 13px 2px;
+    color:#9b9b9b;
+    height:15px;
+    text-indent: 1px;
+}
+.gnList .list .subMenu3 .subGroup1 dt{
+    margin-bottom:-20px;
+}
+.gnList .list .subMenu3 .subGroup1 dt>a,
+.gnList .list .subMenu3 .subGroup2 dt>a{
+    font-size: 15px;
+    font-weight:bold;
+    color:#025321;
+    text-indent: 33px;
+}
+.list .subMenu .subList li a:hover,.gnList  .list .subMenu3 dd a:hover{
+    background:#045321;
+    color:#fff;
+}
+.gnList .list .subMenu3{
+    left:-118px;
+    width:718px;
+}
+.gnList .list .subMenu3 .subGroup1 dd{
+    padding-left:20px;
+}
+.gnList .list .subMenu3 dl{
+    float: left;
+    width: 85px;
+    margin-right: 29px;
+}
+.gnList .list .subMenu3 .proBanner{
+    display: block;
+    float:left;
+}
+.gnList .list .subMenu3 .proBanner a{
+    text-indent: 1px;
+    margin-top: -18px;
+    height: 350px;
+}
+.gnList .list .subMenu{
+    background:#fff;
+}
+.subGroup2 dt{
+    text-indent: -20px;
+}
+.subMenu3 .subGroup3{
+    float:left;
+    width: 122px;
+    position: absolute;
+    right: 1px;
+    top: 0;
+}
+.subMenu3 .subGroup3 li a{
+    text-indent: 1px;
+}
+.gnList .list p img{
+    margin-top:20px;
+}
+.shoppingLoginNav .gnList .subMenu3 .btnClose{
+    position: absolute;
+    right: 10px;
+    bottom: 10px;
+    height: 19px;
+    width: 19px;
+    text-indent: 1px;
+}
+/****************************��¼��**********************************/
+.quickShopping .login{
+    position: absolute;
+    right:0;
+    top:4px;
+}
+.quickShopping .login .login-id,.quickShopping .login .login-pwd{
+    width:135px;
+    height: 24px;
+    padding: 5px 2px 0 2px;
+    border: none;
+    background: url("../image/BG_mailEnter.png") no-repeat;
+    display:inline-block;
+}
+.quickShopping .login .login-id input,.quickShopping .login .login-pwd input{
+    width: 100%;
+    height: 20px;
+    line-height: 20px;
+    border: none;
+    background: none;
+}
+.quickShopping .login .login-pwd{
+    background: url("../image/BG_pwEnter.png") no-repeat;
+}
+.login *{
+    vertical-align: bottom;
+}
+.toHeader .signIn{
+    display: block;
+    position: absolute;
+    top: 131px;
+    right: 50%;
+    margin-right: -570px;
+}
+.bgfff{
+    background: #fff !important;
+}
+/**********************************ҳ������*************************************************/
+#container {
+    position: relative;
+}
+#container .contents{
+    position: relative;
+    width: 980px;
+    margin: 0 auto;
+}
+#container .contents .location{
+    height: 32px;
+    padding-top: 14px;
+    border-bottom: 1px solid #e0e0e0;
+}
+.contents .location .home{
+    display: inline-block;
+    width: 53px;
+    height: 17px;
+    vertical-align: middle;
+    font-size: 0;
+    background: url("../image/BG_home.png")no-repeat left top;
+}
+.contents .location .path{
+    display: inline-block;
+    padding-left: 23px;
+    line-height: 17px;
+    vertical-align: middle;
+    background: url("../image/arr_7x12_ababab.png")no-repeat 6px center;
+}
+/*********************************��Ʒ���*************************************************/
+.productList{
+    position: relative;
+    width: 100%;
+    padding-bottom: 20px;
+    background: url("../image/BG_pageTitleLine.gif") no-repeat left bottom;
+    min-height: 69px;
+}
+.productList .proTop{
+    height: 31px;
+    padding-top: 27px;
+}
+/************************************页面主体**************************************/
+.pageTitle{
+    position: relative;
+    width: 100%;
+    min-height: 69px;
+    padding-bottom: 20px;
+    background: url("../image/BG_pageTitleLine.gif")no-repeat left bottom;
+}
+.pageTitle h3{
+    display: inline-block;
+    padding-top: 20px;
+    vertical-align: top;
+    font-size: 22px;
+    color: #222;
+    font-weight: initial;
+}
+.pageTitle img{
+    display: inline-block;
+    margin-left:40px;
+    padding-top: 20px;
+}
+    /*********************产品左侧图片*********************************/
+.productDetail{
+    overflow: hidden;
+    width: 100%;
+    margin-top: 21px;
+    position: relative;
+}
+.productDetail .picLeft{
+    float: left;
+    position: relative;
+    width: 388px;
+    height: 388px;
+    padding: 60px 0 0 60px;
+}
+.productDetail .picLeft>img{
+    width: 330px;
+    height: 330px;
+}
+.productDetail .share{
+    position: absolute;
+    top: 390px;
+    left: 60px;
+}
+.productDetail .share>span{
+    font-weight: bold;
+    vertical-align: middle;
+}
+.productDetail .share a>img{
+    margin-right: 3px;
+}
+/*********************产品右侧详情*********************************/
+.pdtDesc{
+    width: 460px;
+    position: absolute;
+    top:0;
+    right: 0;
+}
+.pdtDesc .desc{
+    margin-left: 15px;
+    color: #333;
+}
+.pdtDesc .descList{
+    margin-top: 10px;
+    border-top: 1px solid #efeeee;
+}
+.pdtDesc .descList dl{
+    overflow: hidden;
+    width: 100%;
+    padding-left:16px ;
+}
+.pdtDesc .descList dl dt{
+    float: left;
+    width: 128px;
+    padding: 5px 0 0 10px;
+    background: url("../image/bul_3x3_gray.gif") no-repeat left 12px;
+}
+.pdtDesc .descList dl dd{
+    float: left;
+    position: relative;
+    width: 217px;
+    padding: 5px 0;
+}
+.pdtDesc .descList .normalprice dt{
+    font-weight: bold;
+}
+.pdtDesc .descList .normalprice dd{
+    font-size: 18px;
+    font-weight: bold;
+    color: #c5361a;
+}
+.pdtDesc .point dd span{
+    margin-right: 2px;
+    font-weight: bold;
+    font-size: 14px;
+}
+.pdtDesc .quantity {
+    padding-bottom: 4px;
+    border-bottom: 1px solid #efeeee;
+}
+.pdtDesc .quantity .qForm{
+    display: inline-block;
+    position: relative;
+}
+.pdtDesc .quantity .btnUp{
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: 15px;
+    height: 10px;
+    border: none;
+    background: url("../image/btn_quantityUp.gif") no-repeat left top;
+}
+.pdtDesc .quantity  .btnDonw{
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    width: 15px;
+    height: 10px;
+    border: none;
+    background: url("../image/btn_quantityDown.gif") no-repeat left top;
+}
+/***************************************总计金额***********************/
+.totalPrice{
+    margin-top: 10px;
+}
+.totalPrice span{
+    display: inline-block;
+    width: 120px;
+    padding-left: 26px;
+    vertical-align: middle;
+    color: #000;
+    font-weight: bold;
+    background: url("../image/bul_3x3_gray.gif")no-repeat 17px 6px;
+}
+.totalPrice em{
+    display: inline-block;
+    vertical-align: middle;
+    font-weight: bold;
+    font-size: 24px;
+    color: #333;
+}
+/***************************************购物按钮***********************/
+.btnShopping{
+    margin-top: 10px;
+    padding-top: 13px;
+    text-align: center;
+    border-top: 1px solid #b2b2b2;
+}
+    /********************************用户评价*************************/
+.pdtDesc .buySatisfy {
+    position: relative;
+    width: 330px;
+    min-height: 98px;
+    margin-top: 20px;
+    padding-left: 124px;
+    border: 3px solid #f6f6f6;
+}
+.pdtDesc .buySatisfy dt{
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 124px;
+    height: 91px;
+    padding-top: 7px;
+    text-align: center;
+    background: #f6f6f6;
+}
+.pdtDesc .buySatisfy .buySatisfy_icon {
+    position: absolute;
+    left: 0;
+    top: 30px;
+    width: 124px;
+    text-align: center;
+}
+ .pdtDesc .buySatisfy .buyReview {
+    padding: 8px 0 0 20px;
+}
+.pdtDesc .buySatisfy .buyReview li{
+    float: left;
+    padding-left: 10px;
+}
+.buySatisfy .buyReview li a>span{
+    font-size: 11px;
+    color: #c5361a;
+    font-weight: bold;
+}
+.buySatisfy .buyList{
+    padding: 20px 10px 0 34px;
+}
+.buySatisfy .buyList ul li{
+    margin-bottom: 1px;
+    padding-left: 7px;
+    color: #888;
+    background: url("../image/bul_3x3_gray.gif")no-repeat left 8px;
+}
+    /************************商品信息优惠登录***********************/
+.proLogin{
+    position: relative;
+    width: 100%;
+    margin-top: 20px;
+    padding-top: 40px;
+    border-top: 1px solid #9c9e9f;
+}
+.proLogin .grayBox{
+    overflow: hidden;
+    padding: 0 20px 0 25px;
+    border: 1px solid #d5d9db;
+    background: #f3f3f3;
+}
+.grayBox .lef{
+    float: left;
+    padding: 15px 0;
+    line-height: 18px;
+}
+.grayBox .rig{
+    float: right;
+    margin-top: 14px;
+}
+.grayBox .rig>a{
+    display: inline-block;
+    border: 1px solid #c0c3c5;
+    background: #fff;
+}
+.grayBox .rig span{
+    display: inline-block;
+    padding: 1px 20px 1px 7px;
+    line-height: 1.4;
+    color: #c38f2d;
+    cursor: pointer;
+    background: url("../image/arr_btnType2.gif")no-repeat right center;
+}
+/******************************商品信息详情************************/
+.information{
+    position: relative;
+    width: 100%;
+}
+.information h5{
+    margin: 35px 0 10px 20px;
+}
+.information .pdInfor{
+    table-layout: fixed;
+    border-top: 1px solid #d4d4d4;
+    width: 100%;
+}
+.information .pdInfor tr{
+    display: table-row;
+    vertical-align: inherit;
+    border-color:inherit;
+}
+.information .pdInfor th{
+    text-align: left;
+    font-weight: normal;
+    border-right: 1px solid #d4d4d4;
+    border-bottom: 1px solid #d4d4d4;
+    background: #e7e7e7;
+}
+.information .pdInfor tr th:first-child{
+    border-left: 1px solid #d4d4d4;
+}
+.information .pdInfor th>p{
+    padding: 4px 0 3px 15px;
+    line-height: 18px;
+}
+.information .pdInfor td{
+    border-right: 1px solid #d4d4d4;
+    border-bottom: 1px solid #d4d4d4;
+}
+.information .pdInfor td>p{
+    padding: 4px 0 3px 10px;
+    line-height: 18px;
+}
+    /*********************详情页面**********************/
+.tabType{
+    overflow: hidden;
+    width: 100%;
+    margin-top: 40px;
+    height: 30px;
+    padding-top: 4px;
+    border-top: 1px solid #cfcfcf;
+    background: url("../image/BG_tabTypeT.gif")repeat-x left 1px;
+}
+.tabType li{
+    width: 25%;
+    float: left;
+    text-align: center;
+}
+.tabType li a{
+    display: block;
+    height:29px;
+    padding-bottom: 4px;
+    border-left: 1px solid #a6acb0;
+    background: #fbfbfb url("../image/BG_tabTypeB.gif")repeat-x left bottom;
+}
+.tabType li:first-child a{
+    background: #fff;
+}
+.tabType li a img{
+    padding-top: 8px;
+}
+.tabType li:last-child a{
+    border-right: 1px solid #a7adb0;
+}
+    /**************************商品图片*************************/
+.tabInfo{
+    overflow: hidden;
+    position: relative;
+    width: 100%;
+    margin-top: 30px;
+}
+/****************************商品左边**************************/
+.tabInfo .infoLe{
+    float: left;
+    position: relative;
+    width: 775px;
+}
+    /************************商品右边**************************/
+.tabInfo .infoRi{
+    float: right;
+    width: 205px;
+}
+.infoRi h5{
+    padding: 8px 0 6px;
+    text-align: center;
+    border: 1px solid #d4d4d4;
+    border-top: 1px solid #b4b4b4;
+    border-bottom: none;
+    background: url("../image/BG_pencil.gif")repeat left top;
+}
+.tabInfo .infoRi .riList{
+    position: relative;
+    margin-bottom: 20px;
+    padding-bottom: 50px;
+    border: 1px solid #d4d4d4;
+}
+.riList .paper{
+    position: absolute;
+    right: -1px;
+    bottom: -1px;
+    width: 52px;
+    height: 99px;
+    background: url("../image/BG_paper.gif")no-repeat left top;
+}
+.infoRi .riList ul{
+    position: relative;
+    width: 150px;
+    margin: 0 auto;
+}
+.infoRi .riList ul li{
+    margin-top: 10px;
+    text-align: center;
+}
+.infoRi .riList .proName{
+    display: block;
+    margin-top: 5px;
+    line-height: 18px;
+}
+.infoRi .riList a:hover{
+    text-decoration: underline;
+}
+.infoRi .riList span.price{
+    display: block;
+    font-size: 14px;
+    font-weight: bold;
+    color: #333;
+}
+    /***********************分享小清新*************************/
+.photo h5,.buyReview h5{
+    margin: 20px 0 0 20px;
+    font-size: 14px;
+}
+.photo h5 strong,.buyReview h5 strong{
+    display: inline-block;
+    vertical-align: middle;
+    color: #888;
+}
+.photo h5 span,.buyReview h5 span{
+    color: #c5361a;
+}
+.photo .photoList{
+    margin-top: 25px;
+}
+.photoList .sort{
+    overflow: hidden;
+    margin-left: 20px;
+}
+.photoList .sort li{
+    float: left;
+    margin-right: 14px;
+    padding-right: 15px;
+    background: url("../image/bar_1x9_666666.gif")no-repeat right center;
+}
+.photoList .sort li:first-child a{
+    color: #c5361a;
+}
+.photoList .box{
+    margin-top: 15px;
+    padding: 35px 0 35px 35px;
+    background: #fafafa;
+}
+.photoList .box ul{
+    overflow: hidden;
+    width: 100%;
+}
+.photoList .box ul li{
+    float: left;
+    width: 150px;
+    margin-right: 30px;
+}
+.box li .thumb img{
+    width: 150px;
+    height:150px;
+}
+.photoList .box ul li strong{
+    display: block;
+    margin-top: 15px;
+    line-height: 1.4;
+    font-weight: normal;
+    color: #333;
+}
+.box li .writer{
+    display: block;
+    margin-top: 5px;
+}
+/************************************分页页码************************************************/
+.page{
+    position: relative;
+    min-height: 25px;
+    margin-top: 20px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+.page a{
+    display: inline-block;
+    min-width: 9px;
+    margin: 0 2px;
+    vertical-align: bottom;
+}
+.page a.curr{
+    height: 15px;
+    width: 16px;
+    color: #fff;
+    background-color: #055321;
+    border-radius: 50%;
+}
+.page .btnR{
+    position: absolute;
+    right: 0;
+    top:0;
+}
+    /**************************用户评价************************************/
+.buyReview .buyReviewList{
+    margin-top: 20px;
+}
+.buyReview .buyReviewList table{
+    border-top: 1px solid #c4c4c4;
+    width: 100%;
+}
+.buyReview .buyReviewList table th{
+    padding: 7px 0;
+    font-size: 12px;
+    font-weight: normal;
+    border-bottom: 1px solid #e8e8e8;
+    border-right: 1px solid #e8e8e8;
+    background: #f8f8f8;
+}
+.buyReview .buyReviewList table .last-child{
+    border-right: none;
+}
+.buyReviewList table  .allView{
+    text-align: center;
+    font-size: 11px;
+}
+.buyReviewList table  .allView td{
+    padding: 4px 0;
+    line-height: 1.6;
+    border-right: 1px solid #e8e8e8;
+    border-bottom: 1px solid #e8e8e8;
+}
+.buyReviewList table  .allView .title{
+    padding: 0 20px;
+    text-align: left;
+}
+.buyReviewList .allView .last-child img{
+  width: 27px;
+}
+.buyReview .buyReviewMsg{
+    margin-top: 30px;
+    padding: 12px 20px;
+    background: #fafafa;
+}
+.buyReview .buyReviewMsg ul li{
+    margin-bottom: 1px;
+    line-height: 1.6;
+}
+    /*************************结算 购买注意事项***********************/
+.contents .caution{
+    margin: 15px 0 35px -13px;
+}
+   /*************************************************右侧边栏**************************************************/
+.rightSide{
+    position:fixed;
+    top: 10px;
+    left: 50%;
+    margin-left: 520px;
+    z-index: 9999;
+}
+.rightSide .type1 li{
+    position: relative;
+    width: 60px;
+    height: 56px;
+    display: block;
+    background: #fff;
+}
+.rightSide .type1 .shopNum{
+    background: #c7282d;
+    color: #fff;
+    width: 20px;
+    height: 20px;
+    line-height: 20px;
+    text-align: center;
+    border-radius:50% ;
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    padding: 0;
+    border: 0px;
+}
+.type1 .links>a{
+    display: block;
+    padding: 12px 0;
+    border-left: 1px solid #025124;
+    border-right: 1px solid #025124;
+}
+.recent{
+    width: 58px;
+    height: 63px;
+    background: #fff;
+    border: 1px solid #025124;
+    position: relative;
+}
+.recent img{
+    width: 58px;
+}
+.recent .last,.recent .next{
+    left:0;
+    top:0;
+    width: 10px;
+    height: 10px;
+    background: #045321 url("../image/arw_renewal_prev.png") no-repeat center;
+    border: none;
+    position: absolute;
+}
+.recent .next{
+    background: #045321 url("../image/arw_renewal_next.png") no-repeat center;
+    left:46px;
+}
+.rightSide .top img{
+    margin-top: -6px;
+}
+.notchangerig{
+    position: absolute;
+    top: 210px;
+}
+/***********************************************左侧边栏****************************************************/
+.leftSide{
+    position: fixed;
+    top:10px;
+    left: 50%;
+    margin-left: -604px;
+    z-index: 999;
+}
+.leftSide img{
+    display: block;
+}
+.notchangeleft{
+    position: absolute;
+    top: 210px;
+}
+    /************************************************footer******************************************************/
+#footer{
+    background: url("../image/BG_footer_171010.jpg") no-repeat 50% 0;
+    padding-top: 17px;
+}
+#footer .on{
+    position: relative;
+    width: 980px;
+    height: 572px;
+    margin: 0 auto;
+}
+#footer .on .menuCate{
+    position: absolute;
+    top: 45px;
+    left: 60px;
+}
+.on .menuCate .menuList{
+    width: 95px;
+    float: left;
+    margin-top: -8px;
+    padding-right: 30px;
+}
+.menuCate .menuList li{
+    margin-top: 6px;
+}
+/************************************************��ѯ*******************************************************/
+#footer .info{
+    position: absolute;
+    top: 40px;
+    left: 605px;
+}
+#footer .info dd,#footer .info dt{
+    margin-top: 6px;
+
+}
+/***********************************************����*****************************************************/
+#footer .vigilant{
+    position: absolute;
+    top: 293px;
+    left: 444px;
+    padding-left: 15px;
+    font-size: 11px;
+}
+#footer .vigilant span{
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+/*************************************************logo********************************************************/
+#footer .logoLeft{
+    position: absolute;
+    top: 485px;
+    left: 0;
+    width: 457px;
+    height: 66px;
+    cursor: pointer;
+}
+#footer .logoRight{
+    position: absolute;
+    top: 485px;
+    right:0;
+    cursor: pointer;
+}
+#footer .logoRight a{
+    margin: 0 10px;
+}
